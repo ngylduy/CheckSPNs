@@ -1,0 +1,5 @@
+API: presentation, đại diện cho controller, ít viết code bussiness, lấy và trả dữ liệu, chỉ để điều hướng
+Data: viết repository, migration. kết nối database
+Domain: thiết kế các models entity, các models trong database, định nghĩa models chính, không phụ thuộc vào các tầng khác
+Infrastructer: viết các validation, các action filter, viết các map models
+Service: sử lý logic, sử lý linQ

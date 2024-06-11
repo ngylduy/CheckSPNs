@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5d694PAkyKlyJnxJKeUPDDdWxhAfDREw5MXy7kW0e8c=",
+  "Source": "CheckSPNs.API",
+  "BasePath": "_content/CheckSPNs.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

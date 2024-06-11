@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7LStoGPbqttjBC53GH/oe3/KcdLwGIgijNEoNlKeiapsBlj8KRP39TeK0k5EsIFwcEJ49OygxqhdztitKk382w==",
+  "success": true,
+  "projectFilePath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\CheckSPNs.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Duy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Duy\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,34 @@
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.deps.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Data.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Domain.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Data.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Domain.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.csproj.AssemblyReference.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.AssemblyInfoInputs.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.AssemblyInfo.cs
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPN.77CA78F8.Up2Date
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\refint\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\ref\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.deps.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Data.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Domain.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Data.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Domain.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.csproj.AssemblyReference.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.AssemblyInfoInputs.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.AssemblyInfo.cs
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPN.77CA78F8.Up2Date
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\refint\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj\Debug\net6.0\ref\CheckSPNs.Infrastructure.dll

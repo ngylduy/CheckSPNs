@@ -1,0 +1,150 @@
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.Development.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.exe
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.deps.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.runtimeconfig.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.AssemblyReference.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfoInputs.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfo.cs
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.CoreCompileInputs.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.CheckSPNs.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.build.CheckSPNs.API.props
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CheckSPNs.API.props
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CheckSPNs.API.props
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\scopedcss\bundle\CheckSPNs.API.styles.css
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPN.CAFC301C.Up2Date
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\refint\CheckSPNs.API.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.pdb
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.genruntimeconfig.cache
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\ref\CheckSPNs.API.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Humanizer.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Dapper.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.Development.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.exe
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.deps.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.runtimeconfig.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Dapper.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Humanizer.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.AssemblyReference.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfoInputs.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfo.cs
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.CoreCompileInputs.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.CheckSPNs.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.build.CheckSPNs.API.props
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CheckSPNs.API.props
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CheckSPNs.API.props
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\scopedcss\bundle\CheckSPNs.API.styles.css
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPN.CAFC301C.Up2Date
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\refint\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.pdb
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.genruntimeconfig.cache
+D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\ref\CheckSPNs.API.dll
