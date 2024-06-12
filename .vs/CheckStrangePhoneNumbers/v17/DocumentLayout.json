@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\authenticationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\authenticationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationsController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T02:05:39.551Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

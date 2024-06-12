@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSPNs.Domain", "CheckSPNs.Domain\CheckSPNs.Domain.csproj", "{766FF6F5-8021-4CAC-BE78-1F1D07229299}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckSPNs.Domain", "CheckSPNs.Domain\CheckSPNs.Domain.csproj", "{766FF6F5-8021-4CAC-BE78-1F1D07229299}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSPNs.Service", "CheckSPNs.Service\CheckSPNs.Service.csproj", "{670C4241-BF74-49FC-813C-675714F9ED14}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckSPNs.Service", "CheckSPNs.Service\CheckSPNs.Service.csproj", "{670C4241-BF74-49FC-813C-675714F9ED14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSPNs.Data", "CheckSPNs.Data\CheckSPNs.Data.csproj", "{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckSPNs.Data", "CheckSPNs.Data\CheckSPNs.Data.csproj", "{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSPNs.Infrastructure", "CheckSPNs.Infrastructure\CheckSPNs.Infrastructure.csproj", "{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckSPNs.Infrastructure", "CheckSPNs.Infrastructure\CheckSPNs.Infrastructure.csproj", "{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSPNs.API", "CheckSPNs.API\CheckSPNs.API.csproj", "{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckSPNs.API", "CheckSPNs.API\CheckSPNs.API.csproj", "{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckSPNs.Client", "CheckSPNs.Client\CheckSPNs.Client.csproj", "{0535FE91-58B2-4C62-8042-4865B1CABDF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{805F372B-E742-4ABF-8EFF-1BE8FD4074AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0535FE91-58B2-4C62-8042-4865B1CABDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0535FE91-58B2-4C62-8042-4865B1CABDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0535FE91-58B2-4C62-8042-4865B1CABDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0535FE91-58B2-4C62-8042-4865B1CABDF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
