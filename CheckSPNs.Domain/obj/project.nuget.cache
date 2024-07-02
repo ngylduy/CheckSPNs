@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ltMBe9SHAeXS2W4uKyNzM+Z6JAlURUWRArpUrmpwnGmf3aVcfk33mht7vNN0Q0Xj8+aCJYqKVt+1f6471y6y+A==",
+  "dgSpecHash": "xCMia2kwBqsYKE7InOB8R9oSQDlw6jGyh7i7YrzHkxQ2YL9rK8Bj496XL36yCoxisDqTiptTFpo6d9GNY93hfQ==",
   "success": true,
   "projectFilePath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Duy\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.30\\microsoft.aspnetcore.cryptography.internal.6.0.30.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.30\\microsoft.aspnetcore.cryptography.keyderivation.6.0.30.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.30\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.30.nupkg.sha512",
@@ -22,8 +23,10 @@
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Duy\\.nuget\\packages\\mongodb.bson\\2.26.0\\mongodb.bson.2.26.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\Duy\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",

@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.30" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CheckSPNs.Data\CheckSPNs.Data.csproj" />
+    <ProjectReference Include="..\CheckSPNs.Domain\CheckSPNs.Domain.csproj" />
+    <ProjectReference Include="..\CheckSPNs.Service\CheckSPNs.Service.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -8,11 +8,21 @@
     ".NETCoreApp,Version=v6.0": {
       "CheckSPNs.Domain/1.0.0": {
         "dependencies": {
+          "CsvHelper": "33.0.1",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.30",
-          "Microsoft.EntityFrameworkCore": "6.0.30"
+          "Microsoft.EntityFrameworkCore": "6.0.30",
+          "MongoDB.Bson": "2.26.0"
         },
         "runtime": {
           "CheckSPNs.Domain.dll": {}
+        }
+      },
+      "CsvHelper/33.0.1": {
+        "runtime": {
+          "lib/net6.0/CsvHelper.dll": {
+            "assemblyVersion": "33.0.0.0",
+            "fileVersion": "33.0.1.24"
+          }
         }
       },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.30": {
@@ -213,6 +223,18 @@
           }
         }
       },
+      "MongoDB.Bson/2.26.0": {
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.26.0.0",
+            "fileVersion": "2.26.0.0"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -229,6 +251,7 @@
           }
         }
       },
+      "System.Memory/4.5.5": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {}
     }
   },
@@ -237,6 +260,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CsvHelper/33.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fev4lynklAU2A9GVMLtwarkwaanjSYB4wUqO2nOJX5hnzObORzUqVLe+bDYCUyIIRQM4o5Bsq3CcyJR89iMmEQ==",
+      "path": "csvhelper/33.0.1",
+      "hashPath": "csvhelper.33.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.30": {
       "type": "package",
@@ -364,6 +394,13 @@
       "path": "microsoft.extensions.primitives/6.0.0",
       "hashPath": "microsoft.extensions.primitives.6.0.0.nupkg.sha512"
     },
+    "MongoDB.Bson/2.26.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-g4YPC3SHHB4oKqkQdRCh03E9Ex7g/WawFhU5ABtsfkYEjCRMZrEA2jH+bGB1DAlDQ+jweXOdh1S2KkVEaZ5lng==",
+      "path": "mongodb.bson/2.26.0",
+      "hashPath": "mongodb.bson.2.26.0.nupkg.sha512"
+    },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -377,6 +414,13 @@
       "sha512": "sha512-KiLYDu2k2J82Q9BJpWiuQqCkFjRBWVq4jDzKKWawVi9KWzyD0XG3cmfX0vqTQlL14Wi9EufJrbL0+KCLTbqWiQ==",
       "path": "system.diagnostics.diagnosticsource/6.0.1",
       "hashPath": "system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "type": "package",

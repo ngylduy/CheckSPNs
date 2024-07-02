@@ -1,150 +1,225 @@
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.Development.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.exe
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.deps.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.runtimeconfig.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.pdb
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.pdb
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.pdb
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.AssemblyReference.cache
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfoInputs.cache
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfo.cs
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.CoreCompileInputs.cache
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cs
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cache
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.build.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.development.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.CheckSPNs.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.build.CheckSPNs.API.props
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CheckSPNs.API.props
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CheckSPNs.API.props
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.pack.json
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\scopedcss\bundle\CheckSPNs.API.styles.css
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPN.CAFC301C.Up2Date
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\refint\CheckSPNs.API.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.pdb
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.genruntimeconfig.cache
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\ref\CheckSPNs.API.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Humanizer.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Data\Documents\.NET\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Dapper.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.Development.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\appsettings.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.exe
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.deps.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.runtimeconfig.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.pdb
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Dapper.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Humanizer.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Runtime.Caching.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Security.Permissions.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\System.Windows.Extensions.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.pdb
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.pdb
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.AssemblyReference.cache
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.GeneratedMSBuildEditorConfig.editorconfig
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfoInputs.cache
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfo.cs
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.CoreCompileInputs.cache
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cs
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cache
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.build.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.development.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.CheckSPNs.API.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.build.CheckSPNs.API.props
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CheckSPNs.API.props
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CheckSPNs.API.props
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.pack.json
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\scopedcss\bundle\CheckSPNs.API.styles.css
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPN.CAFC301C.Up2Date
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\refint\CheckSPNs.API.dll
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.pdb
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.genruntimeconfig.cache
-D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.API\obj\Debug\net6.0\ref\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\appsettings.Development.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\appsettings.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.exe
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.deps.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.runtimeconfig.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.API.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.AssemblyReference.cache
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfoInputs.cache
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.AssemblyInfo.cs
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.csproj.CoreCompileInputs.cache
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.sourcelink.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.CheckSPNs.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.build.CheckSPNs.API.props
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CheckSPNs.API.props
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CheckSPNs.API.props
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\scopedcss\bundle\CheckSPNs.API.styles.css
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPN.CAFC301C.Up2Date
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\refint\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.genruntimeconfig.cache
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\ref\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\AutoMapper.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\AWSSDK.SecurityToken.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Azure.Core.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Azure.Identity.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CsvHelper.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Dapper.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\DnsClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\FluentValidation.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Humanizer.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MediatR.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MediatR.Contracts.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.OData.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OData.Core.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OData.Edm.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.OData.ModelBuilder.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Spatial.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MongoDB.Driver.Core.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MongoDB.Libmongocrypt.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.AspNetCore.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Sinks.File.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Sinks.MSSqlServer.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\SharpCompress.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Snappier.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Text.Json.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\ZstdSharp.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\linux\native\libmongocrypt.so
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\osx\native\libmongocrypt.dylib
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\native\mongocrypt.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Authentication.Service.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Service.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Authentication.Service.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Service.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Bridge.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Cache.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Client.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Cluster.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Common.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Instrumentation.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Management.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.MetricServer.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.NCNetJNIBridge.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.NetJNIBridge.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.OutputCache.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Parser.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.PersistenceProviders.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Runtime.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.RuntimeDependencies.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Security.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Serialization.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.SessionState.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.SessionStateManagement.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.SessionStoreProvider.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.SocketServer.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Storage.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.Web.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.System.Internal.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\log4net.ext.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\protobuf-net-ext.Core.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\protobuf-net-ext.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.Win32.Registry.AccessControl.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Alachisoft.NCache.DistributedCache.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Novell.Directory.Ldap.NETStandard.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Quartz.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.CodeDom.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ComponentModel.Composition.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Data.Odbc.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Data.OleDb.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.DirectoryServices.AccountManagement.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.IO.Packaging.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.IO.Ports.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Management.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Net.Http.WinHttpHandler.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.Duplex.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.Http.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.NetTcp.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.Primitives.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.Security.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceModel.Syndication.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.ServiceProcess.ServiceController.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Threading.AccessControl.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.AccessControl.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Data.OleDb.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.AccountManagement.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Management.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Net.Http.WinHttpHandler.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\unix\lib\netstandard2.0\System.Private.ServiceModel.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win7\lib\netstandard2.0\System.Private.ServiceModel.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\client.ncconf
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\config.ncconf
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\tls.ncconf
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MongoDB.AspNetCore.OData.dll
