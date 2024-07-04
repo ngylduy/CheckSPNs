@@ -1,17 +1,16 @@
 ﻿using AutoMapper;
-using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
-using CheckSPNs.Infrastructure.Bases;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Models;
-using CheckSPNs.Service.Application.Shared;
+using CheckSPNs.Infrastructure.Shared;
 using CheckSPNs.Service.EF.Abstract;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Handlers
 {
-    public class PhoneNumberCommandHandler : ResponseHandler,
-        IRequestHandler<ReportPhoneNumberCommand, Result<PhoneNumbers>>,
-        IRequestHandler<AddCommentPhoneNumberCommand, Result>,
-        IRequestHandler<AddOverallReportPhoneNumberCommand, Result>
+    public class PhoneNumberCommandHandler : IRequestHandler<ReportPhoneNumberCommand, Result>,
+        IRequestHandler<AddPhoneNumberTypeOfReportCommand, Result>,
+        IRequestHandler<AddOverallReportPhoneNumberCommand, Result>,
+        IRequestHandler<DeletePhoneNumberCommand, Result>,
+        IRequestHandler<EditPhoneNumberCommand, Result>
     {
 
         private readonly IPhoneNumberService _phoneNumberService;
@@ -25,6 +24,7 @@ namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Handler
             _reportService = reportService;
         }
 
+        #region Commented Code
         //public async Task<Response<string>> Handle(AddPhoneNumberCommand request, CancellationToken cancellationToken)
         //{
         //    var phoneNumber = _mapper.Map<Number.PhoneNumbers>(request);
@@ -50,15 +50,16 @@ namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Handler
         //    }
         //    else return BadRequest<string>(result);
         //}
+        #endregion
 
-        public async Task<Result<PhoneNumbers>> Handle(ReportPhoneNumberCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(ReportPhoneNumberCommand request, CancellationToken cancellationToken)
         {
             var exitPhoneNumber = await _phoneNumberService.GetInfoByPhoneNumber(request.PhoneNumber);
             if (exitPhoneNumber == null)
             {
-                exitPhoneNumber = await _phoneNumberService.AddAsync(request.PhoneNumber);
+                await _phoneNumberService.AddAsync(request.PhoneNumber);
             }
-            return Result.Success(exitPhoneNumber);
+            return Result.Success();
         }
 
         public async Task<Result> Handle(AddOverallReportPhoneNumberCommand request, CancellationToken cancellationToken)
@@ -67,9 +68,35 @@ namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Handler
             return Result.Success();
         }
 
-        public async Task<Result> Handle(AddCommentPhoneNumberCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(AddPhoneNumberTypeOfReportCommand request, CancellationToken cancellationToken)
         {
             await _phoneNumberService.AddTypeReport(request.PhoneNumber, request.TypeOfReportsId);
+            return Result.Success();
+        }
+
+        public async Task<Result> Handle(EditPhoneNumberCommand request, CancellationToken cancellationToken)
+        {
+            var phoneNumbers = _phoneNumberService.GetPhoneNumberByIdAsync(request.Id).Result;
+            if (phoneNumbers == null)
+            {
+                return Result.Failure(Error.NullValue);
+            }
+            var phoneNumberMapper = _mapper.Map(request, phoneNumbers);
+
+            await _phoneNumberService.EditAsync(phoneNumberMapper);
+
+            return Result.Success();
+        }
+
+        public async Task<Result> Handle(DeletePhoneNumberCommand request, CancellationToken cancellationToken)
+        {
+            var phoneNumber = await _phoneNumberService.GetPhoneNumberByIdAsync(request.Id);
+            if (phoneNumber == null)
+            {
+                return Result.Failure(Error.NullValue);
+            }
+            await _phoneNumberService.DeleteAsync(phoneNumbers: phoneNumber);
+
             return Result.Success();
         }
     }

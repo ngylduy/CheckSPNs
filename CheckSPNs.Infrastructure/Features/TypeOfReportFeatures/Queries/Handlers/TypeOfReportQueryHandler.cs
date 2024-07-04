@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
-using CheckSPNs.Infrastructure.Bases;
 using CheckSPNs.Infrastructure.Features.TypeOfReportFeatures.Queries.Models;
 using CheckSPNs.Infrastructure.Features.TypeOfReportFeatures.Queries.Results;
+using CheckSPNs.Infrastructure.Shared;
 using CheckSPNs.Service.EF.Abstract;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.TypeOfReportFeatures.Queries.Handlers
 {
-    public class TypeOfReportQueryHandler : ResponseHandler,
-        IRequestHandler<GetTypeOfReportListQuery, Response<List<GetTypeOfReportListResponse>>>
+    public class TypeOfReportQueryHandler : IRequestHandler<GetTypeOfReportListQuery, Result<List<GetTypeOfReportListResponse>>>
     {
 
         private readonly ITypeOfReportService _typeOfReportService;
@@ -20,13 +19,11 @@ namespace CheckSPNs.Infrastructure.Features.TypeOfReportFeatures.Queries.Handler
             _mapper = mapper;
         }
 
-        public async Task<Response<List<GetTypeOfReportListResponse>>> Handle(GetTypeOfReportListQuery request, CancellationToken cancellationToken)
+        public async Task<Result<List<GetTypeOfReportListResponse>>> Handle(GetTypeOfReportListQuery request, CancellationToken cancellationToken)
         {
             var typeOfReportList = await _typeOfReportService.GetListAsync();
             var typeOfReportListMapper = _mapper.Map<List<GetTypeOfReportListResponse>>(typeOfReportList);
-            var result = Success(typeOfReportListMapper);
-            result.Meta = new { Count = typeOfReportListMapper.Count() };
-            return result;
+            return Result.Success(typeOfReportListMapper);
         }
     }
 }

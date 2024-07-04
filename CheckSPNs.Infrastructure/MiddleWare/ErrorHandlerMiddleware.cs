@@ -1,94 +1,81 @@
-﻿using CheckSPNs.Infrastructure.Bases;
-using FluentValidation;
+﻿using CheckSPNs.Domain.Exceptions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using System.Net;
 using System.Text.Json;
 
 namespace CheckSPNs.Infrastructure.MiddleWare
 {
-    public class ErrorHandlerMiddleware
+    public class ErrorHandlerMiddleware : IMiddleware
     {
-        private readonly RequestDelegate _next;
         private readonly ILogger<ErrorHandlerMiddleware> _logger;
 
-        public ErrorHandlerMiddleware(RequestDelegate next, ILogger<ErrorHandlerMiddleware> logger)
+        public ErrorHandlerMiddleware(ILogger<ErrorHandlerMiddleware> logger)
         {
-            _next = next;
             _logger = logger;
         }
 
-        public async Task Invoke(HttpContext context)
+        public async Task InvokeAsync(HttpContext context, RequestDelegate next)
         {
             try
             {
-                await _next(context);
+                await next(context);
             }
-            catch (Exception error)
+            catch (Exception e)
             {
-                var response = context.Response;
-                response.ContentType = "application/json";
-                var responseModel = new Response<string>() { Succeeded = false, Message = error.Message };
-                _logger.LogError(error, error.Message, context.Request, "");
-
-                //TODO:: cover all validation errors
-                switch (error)
-                {
-                    case UnauthorizedAccessException e:
-                        // custom application error
-                        responseModel.Message = error.Message;
-                        responseModel.StatusCode = HttpStatusCode.Unauthorized;
-                        response.StatusCode = (int)HttpStatusCode.Unauthorized;
-                        break;
-
-                    case ValidationException e:
-                        // custom validation error
-                        responseModel.Message = error.Message;
-                        responseModel.StatusCode = HttpStatusCode.UnprocessableEntity;
-                        response.StatusCode = (int)HttpStatusCode.UnprocessableEntity;
-                        break;
-                    case KeyNotFoundException e:
-                        // not found error
-                        responseModel.Message = error.Message;
-                        responseModel.StatusCode = HttpStatusCode.NotFound;
-                        response.StatusCode = (int)HttpStatusCode.NotFound;
-                        break;
-
-                    case DbUpdateException e:
-                        // can't update error
-                        responseModel.Message = e.Message;
-                        responseModel.StatusCode = HttpStatusCode.BadRequest;
-                        response.StatusCode = (int)HttpStatusCode.BadRequest;
-                        break;
-                    case Exception e:
-                        if (e.GetType().ToString() == "ApiException")
-                        {
-                            responseModel.Message += e.Message;
-                            responseModel.Message += e.InnerException == null ? "" : "\n" + e.InnerException.Message;
-                            responseModel.StatusCode = HttpStatusCode.BadRequest;
-                            response.StatusCode = (int)HttpStatusCode.BadRequest;
-                        }
-                        responseModel.Message = e.Message;
-                        responseModel.Message += e.InnerException == null ? "" : "\n" + e.InnerException.Message;
-
-                        responseModel.StatusCode = HttpStatusCode.InternalServerError;
-                        response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                        break;
-
-                    default:
-                        // unhandled error
-                        responseModel.Message = error.Message;
-                        responseModel.StatusCode = HttpStatusCode.InternalServerError;
-                        response.StatusCode = (int)HttpStatusCode.InternalServerError;
-                        break;
-                }
-
-                var result = JsonSerializer.Serialize(responseModel);
-
-                await response.WriteAsync(result);
+                _logger.LogError(e, e.Message);
+                await HandleExceptionAsync(context, e);
             }
         }
-    }
 
+        private async Task HandleExceptionAsync(HttpContext httpContext, Exception exception)
+        {
+            var statusCode = GetStatusCode(exception);
+
+            var response = new
+            {
+                succeeded = false,
+                status = statusCode,
+                title = GetTitle(exception),
+                detail = exception.Message,
+                errors = GetErrors(exception)
+            };
+
+            httpContext.Response.ContentType = "application/json";
+            httpContext.Response.StatusCode = statusCode;
+            await httpContext.Response.WriteAsync(JsonSerializer.Serialize(response));
+
+        }
+
+        private static int GetStatusCode(Exception exception) => exception switch
+        {
+            BadRequestException => StatusCodes.Status400BadRequest,
+            NotFoundException => StatusCodes.Status404NotFound,
+            FormatException => StatusCodes.Status422UnprocessableEntity,
+            UnauthorizedAccessException => StatusCodes.Status401Unauthorized,
+            //ValidationException => StatusCodes.Status422UnprocessableEntity,
+            KeyNotFoundException => StatusCodes.Status404NotFound,
+            DbUpdateException => StatusCodes.Status400BadRequest,
+            Exception e => e.GetType().ToString() == "ApiException" ? StatusCodes.Status400BadRequest
+                                                        : StatusCodes.Status500InternalServerError,
+            _ => StatusCodes.Status500InternalServerError
+        };
+
+        private static string GetTitle(Exception exception) =>
+            exception switch
+            {
+                DomainException application => application.Title,
+                _ => "Server Error"
+            };
+
+        public static IReadOnlyCollection<Infrastructure.Exceptions.ValidationError> GetErrors(Exception exception)
+        {
+            IReadOnlyCollection<Infrastructure.Exceptions.ValidationError> errors = null;
+            if (exception is Infrastructure.Exceptions.ValidationException validationException)
+            {
+                errors = validationException.Errors;
+            }
+            return errors;
+        }
+    }
 }

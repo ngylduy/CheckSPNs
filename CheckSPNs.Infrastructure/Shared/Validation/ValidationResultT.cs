@@ -1,6 +1,4 @@
-﻿using CheckSPNs.Service.Application.Shared;
-
-namespace CheckSPNs.Infrastructure.Shared.Validation;
+﻿namespace CheckSPNs.Infrastructure.Shared.Validation;
 
 public class ValidationResult<TValue> : Result<TValue>, IValidationResult
 {

@@ -1,13 +1,10 @@
-﻿using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
-using CheckSPNs.Service.Application.Shared;
+﻿using CheckSPNs.Infrastructure.Shared;
 using MediatR;
-using System.ComponentModel.DataAnnotations;
 
 namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Models
 {
-    public class ReportPhoneNumberCommand : IRequest<Result<PhoneNumbers>>
+    public class ReportPhoneNumberCommand : IRequest<Result>
     {
-        [Required]
         public string PhoneNumber { get; set; }
     }
 }

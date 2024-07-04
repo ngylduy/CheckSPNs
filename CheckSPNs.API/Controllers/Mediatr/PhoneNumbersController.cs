@@ -1,4 +1,5 @@
 ﻿using CheckSPNs.API.Base;
+using CheckSPNs.Domain.Exceptions;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Models;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Models;
 using MediatR;
@@ -25,10 +26,10 @@ namespace CheckSPNs.API.Controllers.Mediatr
         public async Task<IActionResult> Create([FromBody] ReportPhoneNumberCommand command)
         {
             var response = await Sender.Send(command);
-            if (response.IsFailure)
-            {
-                return HandlerFailure(response);
-            }
+            //if (response.IsFailure)
+            //{
+            //    return HandlerFailure(response);
+            //}
             return Ok(response);
         }
 
@@ -43,10 +44,43 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(response);
         }
 
+        [HttpPost("/add-type-of-report")]
+        public async Task<IActionResult> AddTypeOfReport([FromQuery] AddPhoneNumberTypeOfReportCommand command)
+        {
+            var response = await Sender.Send(command);
+            if (response.IsFailure)
+            {
+                return HandlerFailure(response);
+            }
+            return Ok(response);
+        }
+
         [HttpGet("/prefix")]
         public async Task<IActionResult> GetPrefix()
         {
             var response = await Sender.Send(new GetPhoneNumberPrefixQuery());
+            return Ok(response);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] EditPhoneNumberCommand command)
+        {
+            var response = await Sender.Send(command);
+            if (response.IsFailure)
+            {
+                return HandlerFailure(response);
+            }
+            return Ok(response);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var response = await Sender.Send(new DeletePhoneNumberCommand(id));
+            if (response.IsFailure)
+            {
+                throw new PhoneNumberNotFoundException(id);
+            }
             return Ok(response);
         }
     }

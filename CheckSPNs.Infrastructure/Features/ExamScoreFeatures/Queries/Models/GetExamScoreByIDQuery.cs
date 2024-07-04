@@ -1,10 +1,10 @@
-﻿using CheckSPNs.Infrastructure.Bases;
-using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Results;
+﻿using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Results;
+using CheckSPNs.Infrastructure.Shared;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Models
 {
-    public class GetExamScoreByIDQuery : IRequest<Response<GetSingleExamScoreResponse>>
+    public class GetExamScoreByIDQuery : IRequest<Result<GetSingleExamScoreResponse>>
     {
         public GetExamScoreByIDQuery(string id)
         {

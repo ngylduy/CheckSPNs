@@ -1,5 +1,5 @@
 ﻿using CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Results;
-using CheckSPNs.Service.Application.Shared;
+using CheckSPNs.Infrastructure.Shared;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Models

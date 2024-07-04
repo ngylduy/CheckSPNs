@@ -6,6 +6,7 @@ using CheckSPNs.Data.MongoDb.Abstract;
 using CheckSPNs.Data.MongoDb.Context;
 using CheckSPNs.Data.MongoDb.Implementations;
 using CheckSPNs.Domain.Models.EF.Identity;
+using CheckSPNs.Infrastructure.Behaviors;
 using CheckSPNs.Infrastructure.Mapping;
 using CheckSPNs.Service.Cache;
 using CheckSPNs.Service.CSV;
@@ -13,6 +14,8 @@ using CheckSPNs.Service.EF.Abstract;
 using CheckSPNs.Service.EF.Implementations;
 using CheckSPNs.Service.MongoDb.Abstract;
 using CheckSPNs.Service.MongoDb.Implementations;
+using FluentValidation;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -73,6 +76,13 @@ namespace CheckSPNs.Infrastructure.Configuration
         {
             //Configuration Of Mediator
             service.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(AssemblyReference.Assembly));
+
+            //service.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationDefaultBehavior<,>));
+
+            service.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationPipelineBehavior<,>));
+
+            //Configuration Of FluentValidation
+            service.AddValidatorsFromAssembly(Infrastructure.AssemblyReference.Assembly, includeInternalTypes: true);
 
             //Configuration Of Automapper
             service.AddAutoMapper(typeof(AutoMapperConfig).Assembly);

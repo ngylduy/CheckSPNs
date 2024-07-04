@@ -1,15 +1,13 @@
 ﻿using AutoMapper;
-using CheckSPNs.Infrastructure.Bases;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Models;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Results;
-using CheckSPNs.Service.Application.Shared;
+using CheckSPNs.Infrastructure.Shared;
 using CheckSPNs.Service.EF.Abstract;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers;
 
-public class PhoneNumberQueryHandler : ResponseHandler,
-                        IRequestHandler<GetPhoneNumberListQuery, Result<List<GetListPhoneNumberResponse>>>,
+public class PhoneNumberQueryHandler : IRequestHandler<GetPhoneNumberListQuery, Result<List<GetListPhoneNumberResponse>>>,
     IRequestHandler<GetPhoneNumberPrefixQuery, Result<List<GetListPrefixResponse>>>
 {
 

@@ -1,6 +1,4 @@
-﻿using CheckSPNs.Infrastructure.Shared;
-
-namespace CheckSPNs.Service.Application.Shared;
+﻿namespace CheckSPNs.Infrastructure.Shared;
 
 public class Result
 {
@@ -10,7 +8,7 @@ public class Result
         {
             throw new InvalidOperationException();
         }
-        if (!isSuccess && error != Error.None)
+        if (!isSuccess && error == Error.None)
         {
             throw new InvalidOperationException();
         }

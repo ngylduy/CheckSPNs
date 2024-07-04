@@ -20,7 +20,7 @@ namespace CheckSPNs.Service.EF.Implementations
             _distributedCacheService = distributedCacheService;
         }
 
-        public async Task<PhoneNumbers> AddAsync(string phoneNumber)
+        public async Task AddAsync(string phoneNumber)
         {
             var phoneNumbers = new PhoneNumbers
             {
@@ -31,8 +31,6 @@ namespace CheckSPNs.Service.EF.Implementations
 
             await _unitOfWork.PhoneNumberRepository.InsertAsync(phoneNumbers);
             await _unitOfWork.CommitAsync();
-
-            return phoneNumbers;
         }
 
         public async Task UpdateOverallReport(PhoneNumberOverallReportEnum phoneNumberOverallReport, string phoneNumber)
@@ -138,5 +136,16 @@ namespace CheckSPNs.Service.EF.Implementations
                 }).ToListAsync();
         }
 
+        public async Task EditAsync(PhoneNumbers phoneNumbers)
+        {
+            _unitOfWork.PhoneNumberRepository.Update(phoneNumbers);
+            await _unitOfWork.CommitAsync();
+        }
+
+        public async Task DeleteAsync(PhoneNumbers phoneNumbers)
+        {
+            _unitOfWork.PhoneNumberRepository.Delete(phoneNumbers);
+            await _unitOfWork.CommitAsync();
+        }
     }
 }

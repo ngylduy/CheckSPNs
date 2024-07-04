@@ -7,5 +7,9 @@ namespace CheckSPNs.Service.EF.Abstract
         Task AddReport(string report, string phoneNumber);
         Task<List<Reports>> GetListByPhoneNumberId(Guid phoneNumberId);
         IQueryable<Reports> GetReportsQuerable();
+
+        Task EditAsync(Reports reports);
+        Task DeleteAsync(Reports reports);
+        Task<Reports> GetReportByIdAsync(Guid id);
     }
 }

@@ -1,14 +1,13 @@
 ﻿using AutoMapper;
-using CheckSPNs.Infrastructure.Bases;
 using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Models;
 using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Results;
+using CheckSPNs.Infrastructure.Shared;
 using CheckSPNs.Service.MongoDb.Abstract;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Handlers
 {
-    public class ExamScoreQueryHandler : ResponseHandler,
-        IRequestHandler<GetExamScoreByIDQuery, Response<GetSingleExamScoreResponse>>
+    public class ExamScoreQueryHandler : IRequestHandler<GetExamScoreByIDQuery, Result<GetSingleExamScoreResponse>>
     {
         private readonly IExamScoreService _examScoreService;
         private readonly IMapper _mapper;
@@ -19,12 +18,11 @@ namespace CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Handlers
             _mapper = mapper;
         }
 
-        public async Task<Response<GetSingleExamScoreResponse>> Handle(GetExamScoreByIDQuery request, CancellationToken cancellationToken)
+        public async Task<Result<GetSingleExamScoreResponse>> Handle(GetExamScoreByIDQuery request, CancellationToken cancellationToken)
         {
             var examScore = await _examScoreService.GetExamScoreByIdAsync(request.Id);
             var examScoreMapper = _mapper.Map<GetSingleExamScoreResponse>(examScore);
-            var result = Success(examScoreMapper);
-            return result;
+            return Result.Success(examScoreMapper);
         }
     }
 }

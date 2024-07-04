@@ -1,6 +1,4 @@
-﻿using CheckSPNs.Service.Application.Shared;
-
-namespace CheckSPNs.Infrastructure.Shared.Validation;
+﻿namespace CheckSPNs.Infrastructure.Shared.Validation;
 
 public class ValidationResult : Result, IValidationResult
 {
@@ -11,7 +9,7 @@ public class ValidationResult : Result, IValidationResult
 
     public Error[] Errors { get; }
 
-    public static ValidationResult WithError(Error[] errors)
+    public static ValidationResult WithErrors(Error[] errors)
     {
         return new(errors);
     }

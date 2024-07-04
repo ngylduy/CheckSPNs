@@ -4,10 +4,12 @@ namespace CheckSPNs.Service.EF.Abstract
 {
     public interface ITypeOfReportService
     {
-        public Task<List<TypeOfReports>> GetListAsync();
-        public Task<TypeOfReports> GetByIDAsync(Guid id);
-        public Task<string> AddAsync(TypeOfReports typeOfReports);
-        public string EditAsync(TypeOfReports typeOfReports);
-        public string DeleteAsync(TypeOfReports typeOfReports);
+        Task<List<TypeOfReports>> GetListAsync();
+        Task<TypeOfReports> GetByIDAsync(Guid id);
+        Task EditAsync(TypeOfReports typeOfReports);
+        Task DeleteAsync(TypeOfReports typeOfReports);
+        Task<bool> IsTypeOfReportExit(string typeOfReport);
+        Task<bool> IsTypeOfReportExitExcludeSelf(string typeOfReport, Guid id);
+        Task AddAsync(TypeOfReports typeOfReports);
     }
 }

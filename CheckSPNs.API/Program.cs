@@ -67,7 +67,8 @@ namespace CheckSPNs.API
             builder.Services.AddControllers().AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100)
             .AddRouteComponents("odata", model: modelBuilder.GetEdmModel()));
 
-
+            //Add middleware => using middleware
+            builder.Services.AddTransient<ErrorHandlerMiddleware>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -76,6 +77,9 @@ namespace CheckSPNs.API
 
             var app = builder.Build();
 
+            //Using middleware
+            app.UseMiddleware<ErrorHandlerMiddleware>();
+
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
             {
@@ -83,9 +87,8 @@ namespace CheckSPNs.API
                 app.UseSwaggerUI();
             }
 
-            app.UseMiddleware<ErrorHandlerMiddleware>();
-
             //app.UseHttpsRedirection();
+
             app.UseCors(CORS);
             app.UseAuthorization();
 

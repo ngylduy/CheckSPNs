@@ -1,5 +1,5 @@
 ﻿using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
-using CheckSPNs.Service.Application.Shared;
+using CheckSPNs.Infrastructure.Shared;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Models

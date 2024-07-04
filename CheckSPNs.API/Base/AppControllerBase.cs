@@ -1,6 +1,5 @@
 ﻿using CheckSPNs.Infrastructure.Shared;
 using CheckSPNs.Infrastructure.Shared.Validation;
-using CheckSPNs.Service.Application.Shared;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

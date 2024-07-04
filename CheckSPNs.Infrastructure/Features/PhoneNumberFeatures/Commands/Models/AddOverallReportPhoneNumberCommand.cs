@@ -1,5 +1,5 @@
 ﻿using CheckSPNs.Domain.Models.EF.Enums;
-using CheckSPNs.Service.Application.Shared;
+using CheckSPNs.Infrastructure.Shared;
 using MediatR;
 using System.ComponentModel.DataAnnotations;
 

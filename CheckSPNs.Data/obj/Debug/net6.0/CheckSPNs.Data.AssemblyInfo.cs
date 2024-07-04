@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckSPNs.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+021e0e49fa1ad92fe8856aa8c1a6dd3be629551a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e6c20db1f1a6dcbf94691f151d88b6531d91e61")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckSPNs.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckSPNs.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

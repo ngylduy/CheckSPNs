@@ -1,16 +1,14 @@
 ﻿using AutoMapper;
 using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
-using CheckSPNs.Infrastructure.Bases;
 using CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Models;
 using CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Results;
-using CheckSPNs.Service.Application.Shared;
+using CheckSPNs.Infrastructure.Shared;
 using CheckSPNs.Service.EF.Abstract;
 using MediatR;
 
 namespace CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Handlers;
 
-public class ReportQueryHandler : ResponseHandler,
-                    IRequestHandler<GetListReportByPhoneNumberQuery, Result<List<GetListReportResponse>>>,
+public class ReportQueryHandler : IRequestHandler<GetListReportByPhoneNumberQuery, Result<List<GetListReportResponse>>>,
                     IRequestHandler<GetListReportQuery, Result<PagedResult<GetListReportResponse>>>
 {
     private readonly IReportService _reportService;

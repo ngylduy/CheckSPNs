@@ -32,6 +32,32 @@ namespace CheckSPNs.API.Controllers.Mediatr
         public async Task<IActionResult> Create([FromBody] AddReportCommand command)
         {
             var result = await Sender.Send(command);
+            if (result.IsFailure)
+            {
+                return HandlerFailure(result);
+            }
+            return Ok(result);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> Update([FromBody] EditReportCommand command)
+        {
+            var result = await Sender.Send(command);
+            if (result.IsFailure)
+            {
+                return HandlerFailure(result);
+            }
+            return Ok(result);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(Guid id)
+        {
+            var result = await Sender.Send(new DeleteReportCommand(id));
+            if (result.IsFailure)
+            {
+                return HandlerFailure(result);
+            }
             return Ok(result);
         }
     }

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CheckSPNs.Service.Application.Shared;
+namespace CheckSPNs.Infrastructure.Shared;
 
 public class PagedResult<T>
 {

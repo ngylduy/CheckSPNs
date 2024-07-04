@@ -1,10 +1,10 @@
-﻿using CheckSPNs.Infrastructure.Bases;
+﻿using CheckSPNs.Infrastructure.Shared;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 
 namespace CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Commands.Models
 {
-    public class ImportFileScoreCommand : IRequest<Response<string>>
+    public class ImportFileScoreCommand : IRequest<Result>
     {
         public IFormFile File { get; }
 
