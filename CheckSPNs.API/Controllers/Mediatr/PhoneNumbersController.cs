@@ -1,8 +1,8 @@
 ﻿using CheckSPNs.API.Base;
-using CheckSPNs.Domain.Exceptions;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Commands.Models;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CheckSPNs.API.Controllers.Mediatr
@@ -16,6 +16,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> Get()
         {
             var response = await Sender.Send(new GetPhoneNumberListQuery());
@@ -79,8 +80,22 @@ namespace CheckSPNs.API.Controllers.Mediatr
             var response = await Sender.Send(new DeletePhoneNumberCommand(id));
             if (response.IsFailure)
             {
-                throw new PhoneNumberNotFoundException(id);
+                return HandlerFailure(response);
             }
+            return Ok(response);
+        }
+
+        [HttpGet("/recent-report")]
+        public async Task<IActionResult> GetRecentReport(int pageIndex = 1, int pageSize = 10)
+        {
+            var response = await Sender.Send(new GetRecentReportPhoneNumberQuery(pageIndex, pageSize));
+            return Ok(response);
+        }
+
+        [HttpGet("{number}")]
+        public async Task<IActionResult> GetInfoByPhoneNumber(string number)
+        {
+            var response = await Sender.Send(new GetPhoneNumberQuery(number));
             return Ok(response);
         }
     }

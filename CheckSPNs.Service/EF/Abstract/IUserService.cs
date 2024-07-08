@@ -4,5 +4,5 @@ namespace CheckSPNs.Service.EF.Abstract;
 
 public interface IUserService
 {
-    Task<AppUsers> CheckLogin(string username, string password);
+    Task AddUserAsync(AppUsers user, string password, CancellationToken cancellationToken);
 }

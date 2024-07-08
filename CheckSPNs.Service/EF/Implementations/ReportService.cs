@@ -33,7 +33,10 @@ namespace CheckSPNs.Service.EF.Implementations
                 PhoneNumberID = phoneNumbers.Id
             };
 
+            phoneNumbers.TimesReported++;
+
             await _unitOfWork.ReportRepository.InsertAsync(reportEntity);
+            _unitOfWork.PhoneNumberRepository.Update(phoneNumbers);
             await _unitOfWork.CommitAsync();
         }
 

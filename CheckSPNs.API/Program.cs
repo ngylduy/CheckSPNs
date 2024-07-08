@@ -16,8 +16,6 @@ namespace CheckSPNs.API
 
             // Add services to the container.
 
-
-
             var CORS = "_cors";
             builder.Services.AddCors(options =>
             {
@@ -54,26 +52,28 @@ namespace CheckSPNs.API
             builder.Services.RegisterTokenBear(builder.Configuration);
 
             //Serilog
-            Log.Logger = new LoggerConfiguration()
-                          .ReadFrom.Configuration(builder.Configuration).CreateLogger();
+            Log.Logger = new LoggerConfiguration().ReadFrom.Configuration(builder.Configuration).CreateLogger();
             builder.Services.AddSerilog();
 
+            //Limit file upload
             builder.WebHost.ConfigureKestrel(options => options.Limits.MaxRequestBodySize = 50 * 1024 * 1024);
 
             //Odata config
             ODataConventionModelBuilder modelBuilder = new ODataConventionModelBuilder();
             modelBuilder.EntitySet<ExamScore>("ExamScoreOData");
-
             builder.Services.AddControllers().AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100)
             .AddRouteComponents("odata", model: modelBuilder.GetEdmModel()));
 
             //Add middleware => using middleware
             builder.Services.AddTransient<ErrorHandlerMiddleware>();
 
-            builder.Services.AddControllers();
+            builder.Services.AddControllers().AddNewtonsoftJson(options =>
+            {
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            }); ;
+
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
@@ -90,8 +90,9 @@ namespace CheckSPNs.API
             //app.UseHttpsRedirection();
 
             app.UseCors(CORS);
-            app.UseAuthorization();
 
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.MapControllers();
 

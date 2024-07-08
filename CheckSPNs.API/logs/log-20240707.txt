@@ -1,0 +1,683 @@
+2024-07-07 14:54:55.677 +07:00 [ERR] Incorrect syntax near '*'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near '*'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo(String sql) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:ea5ba384-2c87-4074-a617-380327d75e6f
+Error Number:102,State:1,Class:15
+2024-07-07 15:02:12.674 +07:00 [ERR] Could not find stored procedure 'ád'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'ád'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo(String sql) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 63
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:24e65596-b1c0-472a-a230-140ff2028ba3
+Error Number:2812,State:62,Class:16
+2024-07-07 15:09:27.708 +07:00 [ERR] Invalid cast from 'System.String' to 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'.
+System.InvalidCastException: Invalid cast from 'System.String' to 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at System.String.System.IConvertible.ToType(Type type, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserializecb1e083b-e68e-45dc-a972-1d64f9ab8691(DbDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 454
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 15:10:03.592 +07:00 [ERR] Invalid cast from 'System.DateTime' to 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.Reports'.
+System.InvalidCastException: Invalid cast from 'System.DateTime' to 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.Reports'.
+   at System.Convert.DefaultToType(IConvertible value, Type targetType, IFormatProvider provider)
+   at System.DateTime.System.IConvertible.ToType(Type type, IFormatProvider provider)
+   at System.Convert.ChangeType(Object value, Type conversionType, IFormatProvider provider)
+   at Deserializeac9c075f-2702-45de-9fe1-5aa11f1bf9a1(DbDataReader )
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 454
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 15:13:33.916 +07:00 [ERR] Incorrect syntax near 'PhoneNumbers'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'PhoneNumbers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:306314ea-dce5-4c08-8b28-6656340e9405
+Error Number:102,State:1,Class:15
+2024-07-07 15:14:15.306 +07:00 [ERR] Incorrect syntax near 'PhoneNumbers'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'PhoneNumbers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:2eaa154b-cbf6-4f93-9873-301675dd2444
+Error Number:102,State:1,Class:15
+2024-07-07 15:14:32.300 +07:00 [ERR] Incorrect syntax near 'PhoneNumbers'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'PhoneNumbers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:2eaa154b-cbf6-4f93-9873-301675dd2444
+Error Number:102,State:1,Class:15
+2024-07-07 15:15:37.337 +07:00 [ERR] Incorrect syntax near 'PhoneNumbers'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'PhoneNumbers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:f6216698-6d79-47ea-bab0-71dcffede2ee
+Error Number:102,State:1,Class:15
+2024-07-07 17:50:01.807 +07:00 [ERR] Incorrect syntax near 'PhoneNumbers'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'PhoneNumbers'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__211_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at CheckSPNs.Data.EF.Implementations.DapperHelper.ExecuteSqlReturnListAsync[T](String query, DynamicParameters parammeters) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Data\EF\Implementations\DapperHelper.cs:line 40
+   at CheckSPNs.API.Controllers.OData.ExamScoreODataController.GetDemo() in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\OData\ExamScoreODataController.cs:line 50
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+ClientConnectionId:a3aec265-e24a-4439-8b89-a78f8748605c
+Error Number:102,State:1,Class:15
+2024-07-07 21:32:18.760 +07:00 [ERR] The user ngylduy@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user ngylduy@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:47:52.898 +07:00 [ERR] Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+Newtonsoft.Json.JsonSerializationException: Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+ ---> System.ArgumentException: Could not cast or convert from System.String to CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Get[T](String key) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 30
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 114
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:48:27.168 +07:00 [ERR] Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+Newtonsoft.Json.JsonSerializationException: Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+ ---> System.ArgumentException: Could not cast or convert from System.String to CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Get[T](String key) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 30
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 114
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:48:52.011 +07:00 [ERR] Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+Newtonsoft.Json.JsonSerializationException: Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+ ---> System.ArgumentException: Could not cast or convert from System.String to CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Get[T](String key) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 30
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 114
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:49:30.846 +07:00 [ERR] Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+Newtonsoft.Json.JsonSerializationException: Error converting value "0354232002" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 12.
+ ---> System.ArgumentException: Could not cast or convert from System.String to CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Get[T](String key) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 30
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 114
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:50:35.253 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 125
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:51:14.270 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 125
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 21:52:11.464 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 124
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 22:00:11.733 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 124
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 22:06:14.376 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 133
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 22:16:54.609 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 124
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 22:17:22.424 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 124
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 22:19:28.203 +07:00 [ERR] Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+Newtonsoft.Json.JsonSerializationException: Self referencing loop detected for property 'PhoneNumber' with type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path 'Reports[0]'.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CheckForCircularReference(JsonWriter writer, Object value, JsonProperty property, JsonContract contract, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Set[T](String key, T value) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 17
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 124
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-07 22:22:41.440 +07:00 [ERR] Error converting value "{"PhoneNumber":"0933835657","DateAdded":"2024-07-01T22:14:30.6850261","TimesReported":3,"PositiveReportsCount":0,"NegativeReportsCount":0,"OverallReportStatus":"Neutral","Reports":[{"PhoneNumberID":"9550302e-51cc-4a0f-7e36-08dc99e06bf1","ReportDate":"2024-07-07T18:13:23.9165177","Comment":"Nửa đêm còn gọi mấy cuộc","Id":"46d06e57-957b-4093-8bcd-08dc9e75560c"},{"PhoneNumberID":"9550302e-51cc-4a0f-7e36-08dc99e06bf1","ReportDate":"2024-07-07T18:13:12.3967342","Comment":"Lừa đảo hoàn thuế VAT, đòi chia %, Dương lùn đen cận!","Id":"e1ec7d8e-3ab3-4d2e-8bcc-08dc9e75560c"},{"PhoneNumberID":"9550302e-51cc-4a0f-7e36-08dc99e06bf1","ReportDate":"2024-07-07T18:13:04.5183227","Comment":"Đã được chứng nhận trong www.vib.com.vn luôn mà !!! https://www.vib.com.vn/vn/tin-tuc/canh-bao-rui-ro/nhan-dien-cuoc-goi-tu-ngan-hang-vib","Id":"8937668e-816e-4a1a-8bcb-08dc9e75560c"}],"PhoneNumbersTypeOfReports":null,"Id":"9550302e-51cc-4a0f-7e36-08dc99e06bf1"}" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 1020.
+Newtonsoft.Json.JsonSerializationException: Error converting value "{"PhoneNumber":"0933835657","DateAdded":"2024-07-01T22:14:30.6850261","TimesReported":3,"PositiveReportsCount":0,"NegativeReportsCount":0,"OverallReportStatus":"Neutral","Reports":[{"PhoneNumberID":"9550302e-51cc-4a0f-7e36-08dc99e06bf1","ReportDate":"2024-07-07T18:13:23.9165177","Comment":"Nửa đêm còn gọi mấy cuộc","Id":"46d06e57-957b-4093-8bcd-08dc9e75560c"},{"PhoneNumberID":"9550302e-51cc-4a0f-7e36-08dc99e06bf1","ReportDate":"2024-07-07T18:13:12.3967342","Comment":"Lừa đảo hoàn thuế VAT, đòi chia %, Dương lùn đen cận!","Id":"e1ec7d8e-3ab3-4d2e-8bcc-08dc9e75560c"},{"PhoneNumberID":"9550302e-51cc-4a0f-7e36-08dc99e06bf1","ReportDate":"2024-07-07T18:13:04.5183227","Comment":"Đã được chứng nhận trong www.vib.com.vn luôn mà !!! https://www.vib.com.vn/vn/tin-tuc/canh-bao-rui-ro/nhan-dien-cuoc-goi-tu-ngan-hang-vib","Id":"8937668e-816e-4a1a-8bcb-08dc9e75560c"}],"PhoneNumbersTypeOfReports":null,"Id":"9550302e-51cc-4a0f-7e36-08dc99e06bf1"}" to type 'CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers'. Path '', line 1, position 1020.
+ ---> System.ArgumentException: Could not cast or convert from System.String to CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers.
+   at Newtonsoft.Json.Utilities.ConvertUtils.EnsureTypeAssignable(Object value, Type initialType, Type targetType)
+   at Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(Object initialValue, CultureInfo culture, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureType(JsonReader reader, Object value, CultureInfo culture, JsonContract contract, Type targetType)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at CheckSPNs.Service.Cache.DistributedCacheService.Get[T](String key) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\Cache\DistributedCacheService.cs:line 30
+   at CheckSPNs.Service.EF.Implementations.PhoneNumberService.GetInfoByPhoneNumber(String phoneNumber) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\PhoneNumberService.cs:line 115
+   at CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Handlers.PhoneNumberQueryHandler.Handle(GetPhoneNumberQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\PhoneNumberFeatures\Queries\Handlers\PhoneNumberQueryHandler.cs:line 50
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.Mediatr.PhoneNumbersController.GetInfoByPhoneNumber(String number) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\Mediatr\PhoneNumbersController.cs:line 98
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21

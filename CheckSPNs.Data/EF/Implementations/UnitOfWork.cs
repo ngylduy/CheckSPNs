@@ -1,7 +1,7 @@
 ﻿using CheckSPNs.Data.EF.Abstract;
 using CheckSPNs.Data.EF.Context;
-using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
 using CheckSPNs.Domain.Models.MongoDb.CheckExamScore;
+using SchoolProject.Data.Entities.Identity;
 
 namespace CheckSPNs.Data.EF.Implementations
 {
@@ -9,32 +9,20 @@ namespace CheckSPNs.Data.EF.Implementations
     {
         CheckSPNsContext _context;
 
-        Repository<UserTokens> _repositoryUserToken;
         Repository<ExamScore> _repositoryExamScore;
         Repository<ProvinceCity> _repositoryProvinceCity;
-
+        Repository<UserRefreshToken> _repositoryUserRefreshToken;
         TypeOfReportRepository _typeOfReportRepository;
         PhoneNumberRepository _phoneNumberRepository;
         ReportRepository _reportRepository;
         PhoneNumberTypeOfReportRepository _phoneNumberTypeOfReportRepository;
+
 
         private bool disposedValue;
 
         public UnitOfWork(CheckSPNsContext context)
         {
             _context = context;
-        }
-
-        public Repository<UserTokens> RepositoryUserToken
-        {
-            get
-            {
-                if (_repositoryUserToken == null)
-                {
-                    _repositoryUserToken = new Repository<UserTokens>(_context);
-                }
-                return _repositoryUserToken;
-            }
         }
 
         public Repository<ExamScore> RepositoryExamScore
@@ -106,6 +94,18 @@ namespace CheckSPNs.Data.EF.Implementations
                     _phoneNumberTypeOfReportRepository = new PhoneNumberTypeOfReportRepository(_context);
                 }
                 return _phoneNumberTypeOfReportRepository;
+            }
+        }
+
+        public Repository<UserRefreshToken> RepositoryUserRefreshToken
+        {
+            get
+            {
+                if (_repositoryUserRefreshToken == null)
+                {
+                    _repositoryUserRefreshToken = new Repository<UserRefreshToken>(_context);
+                }
+                return _repositoryUserRefreshToken;
             }
         }
 

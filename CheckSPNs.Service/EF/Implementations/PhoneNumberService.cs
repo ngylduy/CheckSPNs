@@ -111,17 +111,9 @@ namespace CheckSPNs.Service.EF.Implementations
 
         public async Task<PhoneNumbers> GetInfoByPhoneNumber(string phoneNumber)
         {
-            var resultCache = await _distributedCacheService.Get<PhoneNumbers>($"cache_phonenumber_info_{phoneNumber}");
-
-            if (resultCache != null)
-            {
-                return resultCache;
-            }
-
-            var phoneNumbers = await _unitOfWork.PhoneNumberRepository.GetInfoByPhoneNumber(phoneNumber);
-
-            await _distributedCacheService.Set($"cache_phonenumber_info_{phoneNumber}", phoneNumber);
-
+            var phoneNumbers = await _unitOfWork.PhoneNumberRepository.GetTableNoTracking()
+                .Include(p => p.Reports.OrderByDescending(r => r.ReportDate))
+                .FirstOrDefaultAsync(x => x.PhoneNumber.Equals(phoneNumber));
             return phoneNumbers;
         }
 
@@ -133,7 +125,7 @@ namespace CheckSPNs.Service.EF.Implementations
                 {
                     Prefix = p.Key,
                     Count = p.Count()
-                }).ToListAsync();
+                }).OrderByDescending(x => x.Count).Take(10).ToListAsync();
         }
 
         public async Task EditAsync(PhoneNumbers phoneNumbers)
@@ -146,6 +138,19 @@ namespace CheckSPNs.Service.EF.Implementations
         {
             _unitOfWork.PhoneNumberRepository.Delete(phoneNumbers);
             await _unitOfWork.CommitAsync();
+        }
+
+
+        public IQueryable<RecentReportPhoneNumber> GetRecentReportPhoneNumbers()
+        {
+            return _unitOfWork.PhoneNumberRepository.GetTableNoTracking().Include(p => p.Reports).Select(x => new RecentReportPhoneNumber
+            {
+                Id = x.Id,
+                PhoneNumber = x.PhoneNumber,
+                DateAdded = x.DateAdded,
+                TimesReported = x.TimesReported,
+                Reports = x.Reports.OrderByDescending(r => r.ReportDate).FirstOrDefault()
+            }).Where(x => x.Reports != null).OrderByDescending(x => x.Reports.ReportDate).AsQueryable();
         }
     }
 }

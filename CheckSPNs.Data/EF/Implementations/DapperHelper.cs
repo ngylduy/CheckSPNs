@@ -6,7 +6,7 @@ using System.Data;
 
 namespace CheckSPNs.Data.EF.Implementations
 {
-    public class DapperHelper<T> : IDapperHelper<T> where T : class
+    public class DapperHelper : IDapperHelper
     {
 
         private readonly string connectString = string.Empty;

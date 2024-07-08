@@ -1,7 +1,8 @@
-﻿using CheckSPNs.API.ViewModel;
-using CheckSPNs.Authentication.Service;
-using CheckSPNs.Domain;
+﻿using CheckSPNs.API.Base;
+using CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Commands.Models;
+using CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Models;
 using CheckSPNs.Service.EF.Abstract;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -9,47 +10,41 @@ namespace CheckSPNs.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthenticationsController : ControllerBase
+    public class AuthenticationsController : AppControllerBase
     {
-        private readonly IUserService _userService;
-        private readonly ITokenHandler _tokenHandler;
-
-        public AuthenticationsController(IUserService userService, ITokenHandler tokenHandler)
+        public AuthenticationsController(ISender sender, ITokenService tokenService) : base(sender)
         {
-            _userService = userService;
-            _tokenHandler = tokenHandler;
         }
 
         [HttpPost("login")]
         [AllowAnonymous]
-        public async Task<IActionResult> Get([FromBody] AccountVM accountVM)
+        public async Task<IActionResult> Get([FromBody] LoginQuery query)
         {
-            //throw new System.ArgumentNullException();
-
-            var user = await _userService.CheckLogin(accountVM.Username, accountVM.Password);
-
-            if (user is null)
+            var result = await Sender.Send(query);
+            if (result.IsFailure)
             {
-                return Unauthorized();
+                return HandlerFailure(result);
             }
+            return Ok(result);
+        }
 
-            if (!user.EmailConfirmed)
+        [HttpPost("/refresh-token")]
+        [AllowAnonymous]
+        public async Task<IActionResult> RefreshToken([FromBody] TokenQuery query)
+        {
+            var result = await Sender.Send(query);
+            if (result.IsFailure)
             {
-                return BadRequest("Your account is inactive");
+                return HandlerFailure(result);
             }
+            return Ok(result);
+        }
 
-            string accessToken = await _tokenHandler.CreateAccessToken(user);
-            string refreshToken = await _tokenHandler.CreateRefreshToken(user);
-
-            return Ok(new JwtModel
-            {
-                AccessToken = accessToken,
-                RefreshToken = new RefreshToken
-                {
-                    UserName = user.UserName,
-                    TokenString = refreshToken
-                }
-            });
+        [HttpGet("/confirm-email")]
+        public async Task<IActionResult> ConfirmEmail([FromQuery] ConfirmEmailCommand command)
+        {
+            var response = await Sender.Send(command);
+            return Ok(response);
         }
 
     }

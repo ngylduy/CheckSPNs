@@ -1,0 +1,140 @@
+﻿@page "/phonenumber/{number}"
+@model CheckSPNs.Client.Pages.PhoneNumber.IndexModel
+@{
+}
+
+
+<!-- Main Section -->
+<div class="main-section container">
+    <div class="main-card-body">
+        <div class="search-content">
+            <h2>Số điện thoại <b>@this.Request.RouteValues["number"]</b> có thông tin </h2>
+
+            @if (Model.phoneNumbers != null) {
+                <p>
+                Ngày báo cáo: <b>@Model.phoneNumbers.DateAdded</b>
+                - Mới nhất: <b>06/07/2024 19:21</b>
+                - Lượt xem: <b>159</b>
+                - Lượt tìm kiếm: <b>9</b>
+                - Lần báo cáo: <b>@Model.phoneNumbers.TimesReported +</b>
+                </p>
+                <span class="result-text">
+                    @if (Model.phoneNumbers.OverallReportStatus == "Neutral")
+                    {
+                        <span class="alert-warning rate-alert">Không xác định</span>
+                    }
+                    @if (Model.phoneNumbers.OverallReportStatus == "Negative")
+                    {
+                        <span class="alert-danger rate-alert">Tiêu cực</span>
+                    }
+                    @if (Model.phoneNumbers.OverallReportStatus == "Positive")
+                    {
+                        <span class="alert-success rate-alert">Tích cực</span>
+                    }
+                </span>
+            }
+            <form action="" method="POST">
+                <div class="report-content">
+                    Bạn đang bị số <a href="#">@this.Request.RouteValues["number"]</a> gọi đến mà chưa biết là ai? <br>
+                    Vui lòng xem các thông tin nội dung phản ánh và báo cáo dưới đây.
+                    <br>
+                    Đồng thời nếu bạn biết số thuê bao <a href="#">@this.Request.RouteValues["number"]</a>
+                    là ai hoặc cung cấp thông tin để báo cáo phản ánh để mọi người cùng đề phòng lừa đảo nhé !
+                    <br><br>
+                    <div>
+                        <input type="radio" name="txtType" value="1" class="input-type-of-report" /> Nhá máy
+
+                        <input type="radio" name="txtType" value="2" class="input-type-of-report" /> Gọi nhỡ
+
+                        <input type="radio" name="txtType" value="3" class="input-type-of-report" /> Làm phiền
+
+                        <input type="radio" name="txtType" value="4" class="input-type-of-report" /> Bảo hiểm
+
+                        <input type="radio" name="txtType" value="5" class="input-type-of-report" /> Tài chính
+
+                        <input type="radio" name="txtType" value="6" class="input-type-of-report" /> Lừa đảo
+
+                        <input type="radio" name="txtType" value="7" class="input-type-of-report" /> Làm quen kết
+                        bạn
+
+                        <input type="radio" name="txtType" value="8" class="input-type-of-report" /> Mời nhận quà
+
+                        <input type="radio" name="txtType" value="99" class="input-type-of-report" /> Khác
+
+                        <br><br>
+
+                        <textarea class="textarea-report-comment" rows="3" type="text" name="txtComment"
+                                  placeholder="Nội dung báo cáo - phản ánh số điện thoại @this.Request.RouteValues["number"]"></textarea>
+
+                    </div>
+                </div>
+
+                <div class="report-submit">
+                    <button type="submit" name="btnSearch" class="btn-search">
+                        Gửi báo cáo số này
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</div>
+
+<div class="main-section container">
+    <div class="main-card-body vote-body">
+
+        <div class="vote-content">
+            <a id="btn-negative" data-value="-1" class="btn btn-danger">
+                Tiêu cực: <span class="negative-value">@if (Model.phoneNumbers != null) {
+                    @Model.phoneNumbers.NegativeReportsCount}else{@Html.Raw(0)}</span>
+            </a>
+            <a id="btn-positive" data-value="1" class="btn btn-success">
+                Tích cực: <span class="positive-value">@if (Model.phoneNumbers != null)
+                    {
+                        @Model.phoneNumbers.PositiveReportsCount
+                    }
+                    else
+                    {
+                        @Html.Raw(0)
+                    }</span>
+            </a>
+            @* <a id="btn-other" data-value="0" class="btn btn-warning">
+                Không chắc: <span class="positive-neutral"> 0</span>
+            </a> *@
+        </div>
+
+    </div>
+</div>
+
+<!-- End Main Section -->
+
+<div class="phonenumber-info-section container">
+    <div class="phonenumber-info-wrapper">
+        <h1 class="phonenumber-info-header">Nội dung số điện thoại @this.Request.RouteValues["number"] được cập nhật</h1>
+
+        <div class="phonenumber-info-content">
+            @if(Model.phoneNumbers != null)
+            {
+                <table class="report-table">
+                <thead>
+                    <tr class="table-text-left">
+                        <th> Ngày tháng </th>
+                        <th> Nội dung </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var report in Model.phoneNumbers.Reports)
+                    {
+                        <tr class="table-text-left">
+                            <td class="table-text-left"> @report.ReportDate </td>
+                            <td class="table-text-left"> @report.Comment </td>
+                        </tr>                            
+                    }
+                </tbody>
+            </table>
+                
+            }
+        </div>
+    </div>
+</div>

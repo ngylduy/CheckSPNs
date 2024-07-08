@@ -4,7 +4,120 @@
     ViewData["Title"] = "Home page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<!-- Main Section -->
+<div class="main-section container">
+    <div class="main-card-body">
+        <div class="search-content">
+            <p>
+                Bạn đang cần tra cứu số? Hãy nhập thông tin dưới đây để tra cứu:<br>Tra cứu thông tin <b>
+                    số điện
+                    thoại lạ
+                </b> - Tra cứu <b>điểm thi</b>
+            </p>
+
+            <div class="search-content-title">
+                <ul class="main-tabs-head">
+                    <li class="tab-btn current" data-tab="tab-sola"><span>Tra số lạ</span></li>
+                    <li class="tab-btn" data-tab="tab-diemthi"><span>Tra điểm thi</span></li>
+                </ul>
+
+                <ul class="main-tabs-content">
+                    <li id="tab-sola" class="tab-content current">
+                        <div class="input-tab">
+                            <input class="sola-search-input" id="txtName" type="text" name="txtName" maxlength="20"
+                                   placeholder="(*) Số điện thoại (vd: 0987654321)" />
+                        </div>
+                        <button type="button" id="btnSearch" name="btnSearch" class="btn-search">
+                            <span class="search-icon">
+                                <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                     data-svg="search">
+                                    <circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7">
+                                    </circle>
+                                    <path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z">
+                                    </path>
+                                </svg>
+                            </span>
+                            <span>Tra cứu - Báo cáo số này</span>
+                        </button>
+
+                    </li>
+                    <li id="tab-diemthi" class="tab-content">
+                        <p>Tao đang phát triển...</p>
+                        <div class="show-content" id="ShowContent"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- End Main Section -->
+
+<div class="list-report-section container">
+    <div class="main-list-report">
+
+        <div class="list-report-first-column">
+
+
+
+
+
+            <div class="list-report-wrapper">
+
+                <h1 class="list-report-header">Danh sách số điện thoại mới cập nhật</h1>
+
+                <div class="list-report-content">
+
+                    @if (Model.ReportsList != null)
+                    {
+                        <table class="report-table">
+                            <tbody>
+                                @foreach (var report in Model.ReportsList)
+                                {
+                                    <tr class="table-text-left">
+                                        <td class="table-text-left"><a href="#">@report.PhoneNumber</a></td>
+                                        <td class="table-text-left">@report.Reports.Comment</td>
+                                        <td class="table-text-right">@report.Reports.ReportDate.ToString("dd/MM/yyyy")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="list-report-second-column">
+
+            <div class="sidebar-widget">
+                <h1 class="sidebar-header">Top Cảnh báo đầu số</h1>
+                <div class="sidebar-content">
+                    @if (Model.PrefixList != null)
+                    {
+                        <table class="report-table">
+                            <tbody>
+                                @foreach (var prefix in Model.PrefixList)
+                                {
+                                    <tr class="table-text-left">
+                                        <td class="table-text-left"><a href="#">@prefix.Prefix</a></td>
+                                        <td class="table-text-right">@prefix.Count Số</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+
+            </div>
+
+            <div class="sidebar-widget">
+                <h1 class="sidebar-header"> Quảng cáo Text </h1>
+                <div class="sidebar-content">
+                    - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 </div>

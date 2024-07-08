@@ -1,6 +1,6 @@
 ﻿namespace CheckSPNs.Domain.Exceptions
 {
-    public class NotFoundException : DomainException
+    public abstract class NotFoundException : DomainException
     {
         protected NotFoundException(string message) : base("Not Found", message)
         {

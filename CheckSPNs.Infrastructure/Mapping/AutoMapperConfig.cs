@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using CheckSPNs.Domain.DTO;
 using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
+using CheckSPNs.Domain.Models.EF.Identity;
 using CheckSPNs.Domain.Models.MongoDb.CheckExamScore;
 using CheckSPNs.Domain.ViewModel;
 using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Results;
+using CheckSPNs.Infrastructure.Features.IdentityFeatures.ApplicationUser.Commands.Models;
 using CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Results;
 using CheckSPNs.Infrastructure.Features.ReportFeatures.Commands.Models;
 using CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Results;
@@ -33,5 +35,7 @@ public class AutoMapperConfig : Profile
         CreateMap<AggregatePrefixPhoneNumber, GetListPrefixResponse>();
 
         CreateMap<EditTypeOfReportCommand, TypeOfReports>();
+
+        CreateMap<AddUserCommand, AppUsers>();
     }
 }

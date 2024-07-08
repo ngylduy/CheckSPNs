@@ -6,6 +6,10 @@ namespace CheckSPNs.Infrastructure.Features.PhoneNumberFeatures.Queries.Models
 {
     public class GetPhoneNumberQuery : IRequest<Result<PhoneNumbers>>
     {
-        string PhoneNumber { get; set; }
+        public GetPhoneNumberQuery(string phoneNumber)
+        {
+            PhoneNumber = phoneNumber;
+        }
+        public string? PhoneNumber { get; set; }
     }
 }

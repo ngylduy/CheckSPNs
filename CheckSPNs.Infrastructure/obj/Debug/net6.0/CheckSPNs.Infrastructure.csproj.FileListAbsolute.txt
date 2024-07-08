@@ -35,11 +35,9 @@ D:\Data\Documents\.NET API\CheckStrangePhoneNumbers\CheckSPNs.Infrastructure\obj
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.deps.json
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
-D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Authentication.Service.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Data.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Domain.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Service.dll
-D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Authentication.Service.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Data.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Service.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\bin\Debug\net6.0\CheckSPNs.Domain.pdb

@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SchoolProject.Data.Entities.Identity;
 
 namespace CheckSPNs.Data.EF.Context
 {
@@ -28,6 +29,8 @@ namespace CheckSPNs.Data.EF.Context
         public DbSet<Reports> Reports { get; set; } = null!;
         public DbSet<TypeOfReports> TypeOfReports { get; set; } = null!;
         public DbSet<PhoneNumbersTypeOfReports> PhoneNumbersTypeOfReports { get; set; } = null!;
+
+        public DbSet<UserRefreshToken> UserRefreshToken { get; set; }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

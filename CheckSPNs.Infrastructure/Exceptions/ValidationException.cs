@@ -2,7 +2,7 @@
 
 namespace CheckSPNs.Infrastructure.Exceptions;
 
-public class ValidationException : DomainException
+public sealed class ValidationException : DomainException
 {
     public ValidationException(IReadOnlyCollection<ValidationError> errors)
         : base("Validation Failure", "One or more validation failures have occurred.")

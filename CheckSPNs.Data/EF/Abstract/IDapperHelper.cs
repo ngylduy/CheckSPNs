@@ -2,7 +2,7 @@
 
 namespace CheckSPNs.Data.EF.Abstract
 {
-    public interface IDapperHelper<T> where T : class
+    public interface IDapperHelper
     {
         /// <summary>
         /// Execute raw query and not return any value

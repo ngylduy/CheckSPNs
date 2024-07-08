@@ -132,15 +132,15 @@ namespace CheckSPNs.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("acca46a6-2ef8-443c-b136-ab4b285732a8"),
-                            ConcurrencyStamp = "3bb18233-7e55-421a-b8be-b6b6d228373c",
+                            Id = new Guid("d82c43dc-d5de-487e-a0e2-b5e18a239997"),
+                            ConcurrencyStamp = "681dae12-5671-4baf-92ac-8a5e9da98fd9",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = new Guid("3c3f9066-3d52-4ec0-ae38-c411025a9a8a"),
-                            ConcurrencyStamp = "9dd5fa87-1dcd-4de2-b4e5-0b617dabab82",
+                            Id = new Guid("c653b23b-d0c5-4d65-8125-86de39ff4af0"),
+                            ConcurrencyStamp = "db37b69a-f235-4d3d-bc5e-c422d6de0fc5",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -204,14 +204,12 @@ namespace CheckSPNs.Data.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("PictureUser")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Sex")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("TwoFactorEnabled")
@@ -236,11 +234,11 @@ namespace CheckSPNs.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("55ae20d0-9288-459b-aa47-d367a6b0f387"),
+                            Id = new Guid("1b0b061b-ba0d-4b79-8b61-a54402659042"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ada9253e-29b3-4f42-ba2e-7935fdd6e2d1",
-                            DateCreated = new DateTime(2024, 7, 1, 15, 13, 32, 581, DateTimeKind.Local).AddTicks(3640),
-                            Dob = new DateTime(2024, 7, 1, 15, 13, 32, 581, DateTimeKind.Local).AddTicks(3627),
+                            ConcurrencyStamp = "0723a4bb-85e5-4431-8cc1-7e60afe6bf41",
+                            DateCreated = new DateTime(2024, 7, 6, 15, 25, 19, 701, DateTimeKind.Local).AddTicks(1738),
+                            Dob = new DateTime(2024, 7, 6, 15, 25, 19, 701, DateTimeKind.Local).AddTicks(1728),
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
@@ -248,7 +246,7 @@ namespace CheckSPNs.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMINISTRATOR",
-                            PasswordHash = "AQAAAAEAACcQAAAAEEdFyW7aZe1Um6eUI4i7sPK9G9oWNwu9BMx3VlKkyG7/2P1eudX6ZvQTCV/5Xmq2rw==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEDW1s7EOaV9TvfvU0zZwxV62+8mWP0n9wxKqJ29h9ppEQb8KJO/hMEfhfMIY1RzhyA==",
                             PhoneNumberConfirmed = false,
                             PictureUser = "default",
                             Sex = "Male",
@@ -343,8 +341,8 @@ namespace CheckSPNs.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = new Guid("55ae20d0-9288-459b-aa47-d367a6b0f387"),
-                            RoleId = new Guid("acca46a6-2ef8-443c-b136-ab4b285732a8")
+                            UserId = new Guid("1b0b061b-ba0d-4b79-8b61-a54402659042"),
+                            RoleId = new Guid("d82c43dc-d5de-487e-a0e2-b5e18a239997")
                         });
                 });
 
@@ -365,6 +363,40 @@ namespace CheckSPNs.Data.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("SchoolProject.Data.Entities.Identity.UserRefreshToken", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime>("AddedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ExpiryDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Token")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("UserId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserRefreshToken");
                 });
 
             modelBuilder.Entity("CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbersTypeOfReports", b =>
@@ -448,6 +480,17 @@ namespace CheckSPNs.Data.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("SchoolProject.Data.Entities.Identity.UserRefreshToken", b =>
+                {
+                    b.HasOne("CheckSPNs.Domain.Models.EF.Identity.AppUsers", "AppUsers")
+                        .WithMany("UserRefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUsers");
+                });
+
             modelBuilder.Entity("CheckSPNs.Domain.Models.EF.CheckPhoneNumber.PhoneNumbers", b =>
                 {
                     b.Navigation("PhoneNumbersTypeOfReports");
@@ -458,6 +501,11 @@ namespace CheckSPNs.Data.Migrations
             modelBuilder.Entity("CheckSPNs.Domain.Models.EF.CheckPhoneNumber.TypeOfReports", b =>
                 {
                     b.Navigation("PhoneNumbersTypeOfReports");
+                });
+
+            modelBuilder.Entity("CheckSPNs.Domain.Models.EF.Identity.AppUsers", b =>
+                {
+                    b.Navigation("UserRefreshTokens");
                 });
 #pragma warning restore 612, 618
         }

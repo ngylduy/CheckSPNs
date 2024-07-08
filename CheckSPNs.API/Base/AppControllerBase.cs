@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace CheckSPNs.API.Base;
 
 [ApiController]
-public class AppControllerBase : ControllerBase
+public abstract class AppControllerBase : ControllerBase
 {
     protected readonly ISender Sender;
 
@@ -15,13 +15,16 @@ public class AppControllerBase : ControllerBase
     protected IActionResult HandlerFailure(Result result) =>
             result switch
             {
-                { IsFailure: true } => throw new InvalidOperationException(),
+                { IsSuccess: true } => throw new InvalidOperationException(),
+
                 IValidationResult validationResult =>
-                BadRequest(CreateProblemDetails(
+                    BadRequest(CreateProblemDetails(
                         "Validation error", StatusCodes.Status400BadRequest,
                         result.Error,
                         validationResult.Errors)),
-                _ => BadRequest(
+
+                _ =>
+                    BadRequest(
                         CreateProblemDetails(
                             "Bad Request", StatusCodes.Status400BadRequest,
                                 result.Error))

@@ -1,6 +1,5 @@
 ﻿using CheckSPNs.Domain.Exceptions;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using System.Text.Json;
 
@@ -51,20 +50,25 @@ namespace CheckSPNs.Infrastructure.MiddleWare
         {
             BadRequestException => StatusCodes.Status400BadRequest,
             NotFoundException => StatusCodes.Status404NotFound,
+
+            //UnauthorizedAccessException => StatusCodes.Status401Unauthorized,
+
+            FluentValidation.ValidationException => StatusCodes.Status400BadRequest,
+            Infrastructure.Exceptions.ValidationException => StatusCodes.Status422UnprocessableEntity,
             FormatException => StatusCodes.Status422UnprocessableEntity,
-            UnauthorizedAccessException => StatusCodes.Status401Unauthorized,
-            //ValidationException => StatusCodes.Status422UnprocessableEntity,
-            KeyNotFoundException => StatusCodes.Status404NotFound,
-            DbUpdateException => StatusCodes.Status400BadRequest,
-            Exception e => e.GetType().ToString() == "ApiException" ? StatusCodes.Status400BadRequest
-                                                        : StatusCodes.Status500InternalServerError,
+
+            //KeyNotFoundException => StatusCodes.Status404NotFound,
+            //DbUpdateException => StatusCodes.Status400BadRequest,
+
+            //Exception e => e.GetType().ToString() == "ApiException" ? StatusCodes.Status400BadRequest
+            //                                            : StatusCodes.Status500InternalServerError,
             _ => StatusCodes.Status500InternalServerError
         };
 
         private static string GetTitle(Exception exception) =>
             exception switch
             {
-                DomainException application => application.Title,
+                DomainException applicationE => applicationE.Title,
                 _ => "Server Error"
             };
 

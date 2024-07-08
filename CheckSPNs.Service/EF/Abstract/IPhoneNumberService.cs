@@ -17,5 +17,6 @@ namespace CheckSPNs.Service.EF.Abstract
 
         Task EditAsync(PhoneNumbers phoneNumbers);
         Task DeleteAsync(PhoneNumbers phoneNumbers);
+        IQueryable<RecentReportPhoneNumber> GetRecentReportPhoneNumbers();
     }
 }

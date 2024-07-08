@@ -191,13 +191,11 @@ D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Threading.AccessControl.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Authentication.Service.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Service.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Infrastructure.pdb
-D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Authentication.Service.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Data.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Domain.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\CheckSPNs.Service.pdb
@@ -223,3 +221,13 @@ D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\refint\Check
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.pdb
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\CheckSPNs.API.genruntimeconfig.cache
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\obj\Debug\net6.0\ref\CheckSPNs.API.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MailKit.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\MimeKit.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Formats.Asn1.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

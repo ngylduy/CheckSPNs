@@ -39,6 +39,7 @@ namespace CheckSPNs.Domain.Models.EF.CheckPhoneNumber
         [JsonIgnore]
         public virtual ICollection<Reports> Reports { get; set; }
         [InverseProperty("PhoneNumbers")]
+        [JsonIgnore]
         public virtual ICollection<PhoneNumbersTypeOfReports> PhoneNumbersTypeOfReports { get; set; }
     }
 }

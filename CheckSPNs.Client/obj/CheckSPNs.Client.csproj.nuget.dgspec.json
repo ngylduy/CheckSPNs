@@ -4,14 +4,14 @@
     "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj": {}
   },
   "projects": {
-    "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj": {
+    "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj",
-        "projectName": "CheckSPNs.Client",
-        "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj",
+        "projectUniqueName": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
+        "projectName": "CheckSPNs.Client.Data",
+        "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
         "packagesPath": "C:\\Users\\Duy\\.nuget\\packages\\",
-        "outputPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\obj\\",
+        "outputPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,97 @@
               "version": "[6.0.29, 6.0.29]"
             },
             {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj",
+        "projectName": "CheckSPNs.Client",
+        "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\CheckSPNs.Client.csproj",
+        "packagesPath": "C:\\Users\\Duy\\.nuget\\packages\\",
+        "outputPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj": {
+                "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj"
+              },
+              "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj": {
+                "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
               "version": "[6.0.29, 6.0.29]"
             },
@@ -81,6 +172,102 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj",
+        "projectName": "CheckSPNs.Domain",
+        "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj",
+        "packagesPath": "C:\\Users\\Duy\\.nuget\\packages\\",
+        "outputPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.26.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.29, 6.0.29]"
+            }
+          ],
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

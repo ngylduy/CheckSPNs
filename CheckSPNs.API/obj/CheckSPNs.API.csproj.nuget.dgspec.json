@@ -57,6 +57,14 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
             "Microsoft.AspNetCore.OData": {
               "target": "Package",
               "version": "[8.2.5, )"
@@ -82,6 +90,10 @@
             "NCache.Microsoft.Extensions.Caching": {
               "target": "Package",
               "version": "[5.3.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Serilog.AspNetCore": {
               "target": "Package",
@@ -133,100 +145,6 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Authentication.Service\\CheckSPNs.Authentication.Service.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Authentication.Service\\CheckSPNs.Authentication.Service.csproj",
-        "projectName": "CheckSPNs.Authentication.Service",
-        "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Authentication.Service\\CheckSPNs.Authentication.Service.csproj",
-        "packagesPath": "C:\\Users\\Duy\\.nuget\\packages\\",
-        "outputPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Authentication.Service\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\CheckSPNs.Data.csproj": {
-                "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\CheckSPNs.Data.csproj"
-              },
-              "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj": {
-                "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\CheckSPNs.Domain.csproj"
-              },
-              "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\CheckSPNs.Service.csproj": {
-                "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\CheckSPNs.Service.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[6.0.30, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.29, 6.0.29]"
-            }
-          ],
-          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -475,9 +393,6 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Authentication.Service\\CheckSPNs.Authentication.Service.csproj": {
-                "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Authentication.Service\\CheckSPNs.Authentication.Service.csproj"
-              },
               "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\CheckSPNs.Data.csproj": {
                 "projectPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\CheckSPNs.Data.csproj"
               },
@@ -518,6 +433,10 @@
               "target": "Package",
               "version": "[12.3.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.30, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.30, )"
@@ -529,6 +448,14 @@
             "Serilog": {
               "target": "Package",
               "version": "[4.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -621,6 +548,10 @@
               "target": "Package",
               "version": "[33.0.1, )"
             },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -629,9 +560,21 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             },
             "System.Linq.Expressions": {
               "target": "Package",

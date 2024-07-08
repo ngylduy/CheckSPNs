@@ -13,4 +13,8 @@
 	<PackageReference Include="MongoDB.Bson" Version="2.26.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\EF\Blog\" />
+  </ItemGroup>
+
 </Project>
