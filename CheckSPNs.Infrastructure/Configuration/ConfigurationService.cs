@@ -135,6 +135,8 @@ namespace CheckSPNs.Infrastructure.Configuration
             service.AddScoped<IPhoneNumberService, PhoneNumberService>();
             service.AddScoped<IReportService, ReportService>();
 
+            service.AddScoped<IStatService, StatService>();
+
             //Service CSV
             service.AddScoped<ICSVHelper, CSVHelper>();
 

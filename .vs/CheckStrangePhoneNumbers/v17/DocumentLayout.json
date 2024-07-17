@@ -3,28 +3,144 @@
   "WorkspaceRootPath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\phonenumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\phonenumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\admin\\pages\\phonenumber\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\admin\\pages\\phonenumber\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\phonenumber\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\phonenumber\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\implementation\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\implementation\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\implementation\\phonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\implementation\\phonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\apirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\admin\\pages\\phonenumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\admin\\pages\\phonenumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\admin\\js\\pages\\examscore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\admin\\js\\pages\\examscore.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\admin\\js\\pages\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\admin\\js\\pages\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\admin\\pages\\examscore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\admin\\pages\\examscore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\client\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\client\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\admin\\js\\demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\admin\\js\\demo.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\admin\\pages\\examscore\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\admin\\pages\\examscore\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\abstract\\iphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\abstract\\iphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\implementation\\statservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\implementation\\statservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\mediatr\\phonenumberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\mediatr\\phonenumberscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\handlers\\phonenumberqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\handlers\\phonenumberqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\phonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\phonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getphonenumberlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getphonenumberlistquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\reportfeatures\\queries\\models\\getlistreportquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\reportfeatures\\queries\\models\\getlistreportquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\results\\getlistphonenumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\results\\getlistphonenumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getphonenumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getphonenumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getrecentreportphonenumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getrecentreportphonenumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\reportfeatures\\queries\\handlers\\reportqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\reportfeatures\\queries\\handlers\\reportqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\reportfeatures\\queries\\results\\getlistreportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\reportfeatures\\queries\\results\\getlistreportresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\reportfeatures\\queries\\models\\getlistreportbyphonenumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\reportfeatures\\queries\\models\\getlistreportbyphonenumberquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getphonenumberstatbystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getphonenumberstatbystatusquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getphonenumbertopviewquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getphonenumbertopviewquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getphonenumbertopreportquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getphonenumbertopreportquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\admin\\pages\\remote\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\admin\\pages\\remote\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\model\\datapaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\model\\datapaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\model\\responsepaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\model\\responsepaged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\client\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\client\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\models\\ef\\checkphonenumber\\phonenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\models\\ef\\checkphonenumber\\phonenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\model\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,28 +151,348 @@
       "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\model\\responselist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\phonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\phonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\implementation\\storyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\implementation\\storyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\abstract\\istatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\abstract\\istatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\abstract\\istoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\abstract\\istoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\abstract\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\abstract\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\abstract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\implementation\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\admin\\pages\\remote\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\admin\\pages\\remote\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\statservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\statservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\mediatr\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\mediatr\\statscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getsystemstatquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getsystemstatquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\statsfeatures\\queries\\handlers\\statqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\statsfeatures\\queries\\handlers\\statqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\abstract\\istatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\abstract\\istatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\viewmodel\\stats\\systemstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\viewmodel\\stats\\systemstat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\models\\ef\\checkphonenumber\\phonenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\models\\ef\\checkphonenumber\\phonenumbers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getreportstatbytimequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\statsfeatures\\queries\\models\\getreportstatbytimequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getrecentreportphonenumberbytypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getrecentreportphonenumberbytypequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\emailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\emailsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\odata\\examscoreodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\odata\\examscoreodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\viewmodel\\stats\\phonenumberstatbyviewandtimereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\viewmodel\\stats\\phonenumberstatbyviewandtimereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\viewmodel\\stats\\reportstatbytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\viewmodel\\stats\\reportstatbytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\reportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\viewmodel\\stats\\phonenumberstatbystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\viewmodel\\stats\\phonenumberstatbystatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\odata\\typeofreportodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\odata\\typeofreportodatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\mediatr\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\mediatr\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\authenticationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\authenticationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\authorizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\authorizationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\dto\\phonenumbersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\dto\\phonenumbersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.data\\ef\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|solutionrelative:checkspns.data\\ef\\implementations\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.data\\ef\\abstract\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|solutionrelative:checkspns.data\\ef\\abstract\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\phonenumber\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\phonenumber\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\admin\\plugins\\daterangepicker\\daterangepicker.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\admin\\plugins\\daterangepicker\\daterangepicker.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\login\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\login\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\login\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\login\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\admin\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\admin\\css\\adminlte.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\apibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\apibase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\errors\\404.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\errors\\404.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\login\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\login\\pages\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\configuration\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\configuration\\configurationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getphonenumberbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\models\\getphonenumberbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\abstract\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\abstract\\ireportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\typeofreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\typeofreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\mediatr\\typeofreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\mediatr\\typeofreportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\login\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\login\\pages\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\helpers\\checkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\helpers\\checkservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.data\\ef\\context\\checkspnscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|solutionrelative:checkspns.data\\ef\\context\\checkspnscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\implementations\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\shared\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\areas\\login\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\areas\\login\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\service\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\service\\abstract\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\model\\addnewreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\model\\addnewreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\model\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\model\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client.data\\checkspns.client.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5162C537-901D-4CE7-8EDB-DE3B2B10EAFE}|CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj|solutionrelative:checkspns.client.data\\checkspns.client.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\helpers\\userclaimmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\helpers\\userclaimmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\authservices\\implementations\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\authservices\\implementations\\currentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\authservices\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\authservices\\interfaces\\icurrentuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\phonenumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\phonenumber\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\wwwroot\\client\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\wwwroot\\client\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\type\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\type\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\shared\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\shared\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\prefix\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\prefix\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\errors\\404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\errors\\404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\type\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\type\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.service\\ef\\abstract\\iphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{670C4241-BF74-49FC-813C-675714F9ED14}|CheckSPNs.Service\\CheckSPNs.Service.csproj|solutionrelative:checkspns.service\\ef\\abstract\\iphonenumberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\viewmodel\\recentreportphonenumberbytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\viewmodel\\recentreportphonenumberbytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\viewmodel\\recentreportphonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\viewmodel\\recentreportphonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\models\\ef\\checkphonenumber\\phonenumberstypeofreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\models\\ef\\checkphonenumber\\phonenumberstypeofreports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\prefix\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\prefix\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\config.ncconf||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\config.ncconf||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\client.ncconf||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\client.ncconf||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.data\\ef\\implementations\\phonenumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|solutionrelative:checkspns.data\\ef\\implementations\\phonenumberrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\search\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\search\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.client\\pages\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D072C4E8-2A84-41D2-906F-BC9459485D59}|CheckSPNs.Client\\CheckSPNs.Client.csproj|solutionrelative:checkspns.client\\pages\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.api\\controllers\\mediatr\\examscorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49C594FB-2CF3-4CE8-A66C-F5B54859ECA3}|CheckSPNs.API\\CheckSPNs.API.csproj|solutionrelative:checkspns.api\\controllers\\mediatr\\examscorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\results\\getsinglephonenumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82247B28-8DBD-4D28-BFFA-3B212EC0CC60}|CheckSPNs.Infrastructure\\CheckSPNs.Infrastructure.csproj|solutionrelative:checkspns.infrastructure\\features\\phonenumberfeatures\\queries\\results\\getsinglephonenumberresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\dto\\phonenumbersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\dto\\phonenumbersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.domain\\models\\ef\\checkphonenumber\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{766FF6F5-8021-4CAC-BE78-1F1D07229299}|CheckSPNs.Domain\\CheckSPNs.Domain.csproj|solutionrelative:checkspns.domain\\models\\ef\\checkphonenumber\\reports.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|d:\\data\\documents\\.net api\\checkspns\\checkspns.data\\migrations\\20240709030324_updatephonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A19D44D-214E-4C18-A2FE-A9AF7759AEC7}|CheckSPNs.Data\\CheckSPNs.Data.csproj|solutionrelative:checkspns.data\\migrations\\20240709030324_updatephonenumber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,141 +502,1346 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "site.css",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
-              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
-              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
-              "ViewState": "AQIAAMMAAAAAAAAAAAASwNcAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-07-07T15:42:05.824Z",
+              "DocumentIndex": 2,
+              "Title": "PhoneNumberService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\PhoneNumberService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Implementation\\PhoneNumberService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\PhoneNumberService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Implementation\\PhoneNumberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T04:16:02.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "ApiRequest.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\ApiRequest.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\ApiRequest.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\ApiRequest.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\ApiRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:01:40.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\BaseService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Implementation\\BaseService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\BaseService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Implementation\\BaseService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAwDsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:15:27.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAA4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T13:56:35.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAAALUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T03:22:13.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "site.js",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\client\\js\\site.js",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\client\\js\\site.js",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\client\\js\\site.js",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\client\\js\\site.js",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwFwAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-08T04:01:52.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dashboard.js",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\dashboard.js",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\dashboard.js",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\dashboard.js",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\dashboard.js",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-11T09:30:47.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPhoneNumberService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IPhoneNumberService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Abstract\\IPhoneNumberService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IPhoneNumberService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Abstract\\IPhoneNumberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T04:15:45.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAD4vx8AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T04:13:07.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Admin\\Pages\\PhoneNumber\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-16T01:09:05.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "examscore.js",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\examscore.js",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\examscore.js",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\examscore.js",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\admin\\js\\pages\\examscore.js",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-16T15:04:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\_Layout.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\_Layout.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\_Layout.cshtml",
+              "ViewState": "AQIAACABAAAAAAAAAAAAADABAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T08:39:28.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "demo.js",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\js\\demo.js",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\admin\\js\\demo.js",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\js\\demo.js",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\admin\\js\\demo.js",
+              "ViewState": "AQIAAGoCAAAAAAAAAAAkwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-07-16T15:08:08.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Admin\\Pages\\ExamScore\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T13:56:47.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Index.cshtml",
               "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Index.cshtml",
               "RelativeToolTip": "CheckSPNs.Client\\Pages\\Index.cshtml",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAFAAAAApAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAD8AAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-07T15:32:21.526Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
+              "Title": "StatService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\StatService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Implementation\\StatService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\StatService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Implementation\\StatService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowCMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T04:17:58.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "GetPhoneNumberQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:06:44.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "GetListReportQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:55:41.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PhoneNumberService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAA1wLIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:06:43.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PhoneNumbersController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\PhoneNumbersController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\Mediatr\\PhoneNumbersController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\PhoneNumbersController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\Mediatr\\PhoneNumbersController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:19:59.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetPhoneNumberListQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberListQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberListQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberListQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberListQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T04:36:02.934Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PhoneNumberQueryHandler.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Handlers\\PhoneNumberQueryHandler.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Handlers\\PhoneNumberQueryHandler.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Handlers\\PhoneNumberQueryHandler.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Handlers\\PhoneNumberQueryHandler.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDgAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:06:51.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GetListPhoneNumberResponse.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetListPhoneNumberResponse.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetListPhoneNumberResponse.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetListPhoneNumberResponse.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetListPhoneNumberResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T04:38:11.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetRecentReportPhoneNumberQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:06:47.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GetListReportResponse.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Results\\GetListReportResponse.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Results\\GetListReportResponse.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Results\\GetListReportResponse.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Results\\GetListReportResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T04:37:12.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GetListReportByPhoneNumberQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportByPhoneNumberQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportByPhoneNumberQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportByPhoneNumberQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Models\\GetListReportByPhoneNumberQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:55:43.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "GetPhoneNumberStatByStatusQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberStatByStatusQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberStatByStatusQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberStatByStatusQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberStatByStatusQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:45:28.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ReportQueryHandler.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Handlers\\ReportQueryHandler.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Handlers\\ReportQueryHandler.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Handlers\\ReportQueryHandler.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\ReportFeatures\\Queries\\Handlers\\ReportQueryHandler.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:21:26.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GetPhoneNumberTopViewQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopViewQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopViewQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopViewQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopViewQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:50:16.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetPhoneNumberTopReportQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopReportQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopReportQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopReportQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetPhoneNumberTopReportQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:50:33.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "ResponseList.cs",
               "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\ResponseList.cs",
               "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\ResponseList.cs",
               "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\ResponseList.cs",
               "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\ResponseList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:30:51.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:30:51.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Response.cs",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\Response.cs",
-              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\Response.cs",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\Response.cs",
-              "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAZAAAA",
+              "DocumentIndex": 31,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Program.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Program.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Program.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACwAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:30:45.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-08T08:31:00.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAA0wDQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T01:00:20.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DataPaged.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\DataPaged.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\DataPaged.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\DataPaged.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\DataPaged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:16:19.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Index.cshtml.cs",
               "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Index.cshtml.cs",
               "RelativeToolTip": "CheckSPNs.Client\\Pages\\Index.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABTAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:30:01.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:30:01.756Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 35,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\Response.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\Response.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\Response.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:30:45.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ResponsePaged.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\ResponsePaged.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\ResponsePaged.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\ResponsePaged.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\ResponsePaged.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:34:37.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StoryService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\StoryService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Implementation\\StoryService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\StoryService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Implementation\\StoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:37:00.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IStatService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IStatService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Abstract\\IStatService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IStatService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Abstract\\IStatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T04:17:50.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IStoryService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IStoryService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Abstract\\IStoryService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IStoryService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Abstract\\IStoryService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T00:46:16.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IBaseService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Abstract\\IBaseService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IBaseService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Abstract\\IBaseService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:32:25.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Abstract\\IAuthService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IAuthService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Abstract\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:27:20.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\AuthService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Implementation\\AuthService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\AuthService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Implementation\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:15:24.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "StatsController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\StatsController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\Mediatr\\StatsController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\StatsController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\Mediatr\\StatsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T00:46:01.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "StatService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\StatService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\StatService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\StatService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\StatService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAUwEQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:50:04.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
-              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
-              "RelativeToolTip": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAtwFkAAABPAAAA",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Admin\\Pages\\Remote\\Index.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAAwFMAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-07T15:25:17.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-10T01:00:16.625Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
-              "RelativeToolTip": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAEwB8AAAAnAAAA",
+              "DocumentIndex": 48,
+              "Title": "IStatService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IStatService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Abstract\\IStatService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IStatService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Abstract\\IStatService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:25:18.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T03:48:45.746Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IPhoneNumberService.cs",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
-              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
-              "RelativeToolTip": "CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAZAAAA",
+              "DocumentIndex": 47,
+              "Title": "StatQueryHandler.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Handlers\\StatQueryHandler.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Handlers\\StatQueryHandler.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Handlers\\StatQueryHandler.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Handlers\\StatQueryHandler.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwDIAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:16:02.019Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-11T04:02:03.227Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PhoneNumbersDTO.cs",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
-              "RelativeDocumentMoniker": "CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
-              "RelativeToolTip": "CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:14:47.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 50,
               "Title": "PhoneNumbers.cs",
               "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbers.cs",
               "RelativeDocumentMoniker": "CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbers.cs",
               "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbers.cs",
               "RelativeToolTip": "CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbers.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAcwCAAAAAjAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wCEAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:10:55.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:10:55.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 49,
+              "Title": "SystemStat.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\SystemStat.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\ViewModel\\Stats\\SystemStat.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\SystemStat.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\ViewModel\\Stats\\SystemStat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T14:59:08.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "GetSystemStatQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetSystemStatQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetSystemStatQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetSystemStatQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetSystemStatQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-15T16:32:15.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "GetReportStatByTimeQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetReportStatByTimeQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetReportStatByTimeQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetReportStatByTimeQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\StatsFeatures\\Queries\\Models\\GetReportStatByTimeQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T12:14:52.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "GetRecentReportPhoneNumberByTypeQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberByTypeQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberByTypeQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberByTypeQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetRecentReportPhoneNumberByTypeQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:51:09.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PhoneNumberStatByStatus.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByStatus.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByStatus.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByStatus.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:46:36.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ExamScoreODataController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\OData\\ExamScoreODataController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\OData\\ExamScoreODataController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\OData\\ExamScoreODataController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\OData\\ExamScoreODataController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAwJIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T00:48:03.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EmailsService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\EmailsService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\EmailsService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\EmailsService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\EmailsService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:18:55.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\TokenService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\TokenService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\TokenService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\TokenService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:47:05.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "PhoneNumberStatByViewAndTimeReport.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByViewAndTimeReport.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByViewAndTimeReport.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByViewAndTimeReport.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\ViewModel\\Stats\\PhoneNumberStatByViewAndTimeReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:02:11.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ReportStatByTime.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\ReportStatByTime.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\ViewModel\\Stats\\ReportStatByTime.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\Stats\\ReportStatByTime.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\ViewModel\\Stats\\ReportStatByTime.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:54:14.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "TypeOfReportODataController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\OData\\TypeOfReportODataController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\OData\\TypeOfReportODataController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\OData\\TypeOfReportODataController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\OData\\TypeOfReportODataController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:35:23.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ReportService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\ReportService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\ReportService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\ReportService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\ReportService.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowDYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:08:40.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\ReportsController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\Mediatr\\ReportsController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\ReportsController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\Mediatr\\ReportsController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T08:19:51.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "AuthenticationsController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\AuthenticationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:52:59.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:52:57.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "AuthorizationsController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\AuthorizationsController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\AuthorizationsController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\AuthorizationsController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\AuthorizationsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T11:52:55.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\_AuthLayout.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\_AuthLayout.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\_AuthLayout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwCAAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T01:08:39.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "ApiBase.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\ApiBase.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\ApiBase.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\ApiBase.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\ApiBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:01:49.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Abstract\\IReportRepository.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Data\\EF\\Abstract\\IReportRepository.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Abstract\\IReportRepository.cs",
+              "RelativeToolTip": "CheckSPNs.Data\\EF\\Abstract\\IReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T16:35:10.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Implementations\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Data\\EF\\Implementations\\UnitOfWork.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Implementations\\UnitOfWork.cs",
+              "RelativeToolTip": "CheckSPNs.Data\\EF\\Implementations\\UnitOfWork.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T16:36:20.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Program.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Program.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Program.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Program.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAgwD0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:05:39.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:15:12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:25:18.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Login\\Pages\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T16:15:10.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "daterangepicker.css",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\plugins\\daterangepicker\\daterangepicker.css",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\admin\\plugins\\daterangepicker\\daterangepicker.css",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\plugins\\daterangepicker\\daterangepicker.css",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\admin\\plugins\\daterangepicker\\daterangepicker.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T10:41:26.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "adminlte.css",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\css\\adminlte.css",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\admin\\css\\adminlte.css",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\admin\\css\\adminlte.css",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\admin\\css\\adminlte.css",
+              "ViewState": "AQIAAJHMAAAAAAAAAIBJwMHMAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-11T09:33:38.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "404.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Errors\\404.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Errors\\404.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Errors\\404.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Errors\\404.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:54:06.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T09:02:10.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "ConfigurationService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Configuration\\ConfigurationService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Configuration\\ConfigurationService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Configuration\\ConfigurationService.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Configuration\\ConfigurationService.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAwwIkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T04:13:42.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Implementation\\UserService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Implementation\\UserService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Implementation\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:37:06.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "GetPhoneNumberByIDQuery.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberByIDQuery.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberByIDQuery.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberByIDQuery.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Models\\GetPhoneNumberByIDQuery.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T04:04:26.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "IReportService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IReportService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Abstract\\IReportService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IReportService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Abstract\\IReportService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:49:33.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "TypeOfReportService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\TypeOfReportService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\TypeOfReportService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\TypeOfReportService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\TypeOfReportService.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-11T03:38:37.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "TypeOfReportsController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\TypeOfReportsController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\Mediatr\\TypeOfReportsController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\TypeOfReportsController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\Mediatr\\TypeOfReportsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:56:46.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\_ViewStart.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T01:04:49.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Shared\\Result.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Shared\\Result.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Shared\\Result.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Shared\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T06:34:17.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CheckService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Helpers\\CheckService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Helpers\\CheckService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Helpers\\CheckService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Helpers\\CheckService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:16:36.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Login\\Pages\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T09:02:12.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "CheckSPNsContext.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Context\\CheckSPNsContext.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Data\\EF\\Context\\CheckSPNsContext.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Context\\CheckSPNsContext.cs",
+              "RelativeToolTip": "CheckSPNs.Data\\EF\\Context\\CheckSPNsContext.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAuwF4AAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T08:13:27.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\AuthenticationService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\AuthenticationService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\AuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:47:00.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\appsettings.json",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\appsettings.json",
+              "RelativeToolTip": "CheckSPNs.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-10T01:51:24.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Areas\\Login\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Areas\\Login\\_ViewStart.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Areas\\Login\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-10T01:11:03.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IUserService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Service\\Abstract\\IUserService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Service\\Abstract\\IUserService.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Service\\Abstract\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T00:45:01.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\ErrorDetails.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\ErrorDetails.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\ErrorDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T16:16:20.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "CheckSPNs.Client.Data.csproj",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-09T16:01:39.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\appsettings.json",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\appsettings.json",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\appsettings.json",
+              "RelativeToolTip": "CheckSPNs.Client\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-09T16:03:24.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "AddNewReport.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\AddNewReport.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client.Data\\Model\\AddNewReport.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\Model\\AddNewReport.cs",
+              "RelativeToolTip": "CheckSPNs.Client.Data\\Model\\AddNewReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T09:19:39.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "ICurrentUserService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\AuthServices\\Interfaces\\ICurrentUserService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\AuthServices\\Interfaces\\ICurrentUserService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\AuthServices\\Interfaces\\ICurrentUserService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\AuthServices\\Interfaces\\ICurrentUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:41:35.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "UserClaimModel.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\Helpers\\UserClaimModel.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\Helpers\\UserClaimModel.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\Helpers\\UserClaimModel.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\Helpers\\UserClaimModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:41:08.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "CurrentUserService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\AuthServices\\Implementations\\CurrentUserService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\AuthServices\\Implementations\\CurrentUserService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\AuthServices\\Implementations\\CurrentUserService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\AuthServices\\Implementations\\CurrentUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T14:40:04.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Type\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Type\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Type\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Type\\Index.cshtml.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAIwAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:14:35.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Shared\\BaseModel.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Shared\\BaseModel.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Shared\\BaseModel.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Shared\\BaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:47:39.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
+              "RelativeToolTip": "CheckSPNs.Client\\wwwroot\\client\\css\\site.css",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAnwKoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-07T15:42:05.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\PhoneNumber\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-07T15:25:17.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:54:17.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "404.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Errors\\404.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Errors\\404.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Errors\\404.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Errors\\404.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T04:54:05.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "RecentReportPhoneNumber.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumber.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumber.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumber.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:02:16.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Type\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Type\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Type\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Type\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAIBpwAMAAABoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T03:12:03.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "IPhoneNumberService.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
+              "RelativeToolTip": "CheckSPNs.Service\\EF\\Abstract\\IPhoneNumberService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:16:02.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "RecentReportPhoneNumberByType.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumberByType.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumberByType.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumberByType.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\ViewModel\\RecentReportPhoneNumberByType.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:10:01.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Mapping\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Mapping\\AutoMapperConfig.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Mapping\\AutoMapperConfig.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Mapping\\AutoMapperConfig.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwB0AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T04:12:07.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
               "Title": "PhoneNumbersTypeOfReports.cs",
               "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbersTypeOfReports.cs",
               "RelativeDocumentMoniker": "CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbersTypeOfReports.cs",
@@ -208,12 +1849,143 @@
               "RelativeToolTip": "CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\PhoneNumbersTypeOfReports.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:10:51.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:10:51.1Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 113,
+              "Title": "config.ncconf",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\config.ncconf",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\config.ncconf",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\config.ncconf",
+              "RelativeToolTip": "CheckSPNs.API\\config.ncconf",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-09T03:06:06.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Prefix\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T03:49:12.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-09T03:22:10.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "PhoneNumberRepository.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Implementations\\PhoneNumberRepository.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Data\\EF\\Implementations\\PhoneNumberRepository.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\EF\\Implementations\\PhoneNumberRepository.cs",
+              "RelativeToolTip": "CheckSPNs.Data\\EF\\Implementations\\PhoneNumberRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAUwBgAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:02:08.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Search\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Search\\Index.cshtml.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Search\\Index.cshtml.cs",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Search\\Index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:37:17.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "client.ncconf",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\client.ncconf",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\client.ncconf",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\client.ncconf",
+              "RelativeToolTip": "CheckSPNs.API\\client.ncconf",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-09T03:06:02.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 122,
+              "Title": "20240709030324_updatephonenumber.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\Migrations\\20240709030324_updatephonenumber.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Data\\Migrations\\20240709030324_updatephonenumber.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Data\\Migrations\\20240709030324_updatephonenumber.cs",
+              "RelativeToolTip": "CheckSPNs.Data\\Migrations\\20240709030324_updatephonenumber.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-09T03:03:24.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 117,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "CheckSPNs.Client\\Pages\\Search\\Index.cshtml",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client\\Pages\\Search\\Index.cshtml",
+              "RelativeToolTip": "CheckSPNs.Client\\Pages\\Search\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T03:37:14.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 119,
+              "Title": "GetSinglePhoneNumberResponse.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetSinglePhoneNumberResponse.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetSinglePhoneNumberResponse.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetSinglePhoneNumberResponse.cs",
+              "RelativeToolTip": "CheckSPNs.Infrastructure\\Features\\PhoneNumberFeatures\\Queries\\Results\\GetSinglePhoneNumberResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:20:29.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 118,
+              "Title": "ExamScoresController.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\ExamScoresController.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.API\\Controllers\\Mediatr\\ExamScoresController.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Controllers\\Mediatr\\ExamScoresController.cs",
+              "RelativeToolTip": "CheckSPNs.API\\Controllers\\Mediatr\\ExamScoresController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T06:22:09.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 120,
+              "Title": "PhoneNumbersDTO.cs",
+              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
+              "RelativeDocumentMoniker": "CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
+              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
+              "RelativeToolTip": "CheckSPNs.Domain\\DTO\\PhoneNumbersDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T15:14:47.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 121,
               "Title": "Reports.cs",
               "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\Reports.cs",
               "RelativeDocumentMoniker": "CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\Reports.cs",
@@ -221,34 +1993,7 @@
               "RelativeToolTip": "CheckSPNs.Domain\\Models\\EF\\CheckPhoneNumber\\Reports.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:10:44.382Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PhoneNumberService.cs",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
-              "RelativeDocumentMoniker": "CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
-              "RelativeToolTip": "CheckSPNs.Service\\EF\\Implementations\\PhoneNumberService.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAAwwHQAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:06:43.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Program.cs",
-              "RelativeDocumentMoniker": "CheckSPNs.API\\Program.cs",
-              "ToolTip": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.API\\Program.cs",
-              "RelativeToolTip": "CheckSPNs.API\\Program.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAAEgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-07T15:05:39.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-07T15:10:44.382Z"
             }
           ]
         }

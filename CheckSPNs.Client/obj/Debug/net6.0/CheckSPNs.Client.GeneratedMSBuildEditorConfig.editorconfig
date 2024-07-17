@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Admin/Pages/ExamScore/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcRXhhbVNjb3JlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Admin/Pages/PhoneNumber/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUGhvbmVOdW1iZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Admin/Pages/Remote/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmVtb3RlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,16 +34,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcUmVtb3RlXF9TdGF0dXNNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Admin/Pages/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX0xheW91dC5jc2h0bWw=
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Login/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTG9naW5cUGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Admin/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Login/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTG9naW5cUGFnZXNcTG9nb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Admin/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/Login/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTG9naW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/_AuthLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX0F1dGhMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Areas/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Pages/Error.cshtml]
@@ -54,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGhvbmVOdW1iZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Pages/Prefix/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJlZml4XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +96,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Pages/Type/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHlwZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Data/Documents/.NET API/CheckSPNs/CheckSPNs.Client/Pages/_ViewImports.cshtml]

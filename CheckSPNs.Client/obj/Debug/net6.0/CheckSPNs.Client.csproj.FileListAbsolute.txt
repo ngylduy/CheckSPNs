@@ -49,3 +49,15 @@ D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\obj\Debug\net6.0\CheckSPNs
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\obj\Debug\net6.0\CheckSPN.C1687930.Up2Date
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\CheckSPNs.Client.Data.dll
 D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\CheckSPNs.Client.Data.pdb
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Client\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll

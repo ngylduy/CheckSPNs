@@ -1,0 +1,71 @@
+﻿@page "/type/{id}"
+@model CheckSPNs.Client.Pages.Type.IndexModel
+@{
+    ViewData["Title"] = "Loại báo cáo " + @Model.ReportsList.FirstOrDefault().TypeOfReports.TypeOfReport;
+}
+
+<div class="list-report-section container">
+    <div class="main-list-report">
+
+        <div class="list-report-first-column">
+
+
+            <div class="list-report-wrapper">
+
+                <h1 class="list-report-header">Danh sách số điện thoại mới cập nhật trong @Model.ReportsList.FirstOrDefault().TypeOfReports.TypeOfReport</h1>
+
+                <div class="list-report-content">
+
+                    @if (Model.ReportsList != null)
+                    {
+                        <table class="report-table">
+                            <tbody>
+                                @foreach (var report in Model.ReportsList)
+                                {
+                                    <tr class="table-text-left">
+                                        <td class="table-text-left"><a asp-page="/PhoneNumber/Index" asp-route-number="@report.PhoneNumber">@report.PhoneNumber</a></td>
+                                        <td class="table-text-left">@report.Reports.Comment</td>
+                                        <td class="table-text-right">@report.Reports.ReportDate.ToString("dd/MM/yyyy")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="list-report-second-column">
+
+            <div class="sidebar-widget">
+                <h1 class="sidebar-header">Top Cảnh báo đầu số</h1>
+                <div class="sidebar-content">
+                    @if (Model.PrefixList != null)
+                    {
+                        <table class="report-table">
+                            <tbody>
+                                @foreach (var prefix in Model.PrefixList)
+                                {
+                                    <tr class="table-text-left">
+                                        <td class="table-text-left"><a href="#">@prefix.Prefix</a></td>
+                                        <td class="table-text-right">@prefix.Count Số</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+
+            </div>
+
+            <div class="sidebar-widget">
+                <h1 class="sidebar-header"> Quảng cáo Text </h1>
+                <div class="sidebar-content">
+                    - Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

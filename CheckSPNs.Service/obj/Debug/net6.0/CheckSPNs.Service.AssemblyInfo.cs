@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CheckSPNs.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19908a277dd78bd8d07030c6adb726e5db22b4af")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d46f7e5578ac4973c913e280a17615d429d5056")]
 [assembly: System.Reflection.AssemblyProductAttribute("CheckSPNs.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CheckSPNs.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

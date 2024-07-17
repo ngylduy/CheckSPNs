@@ -23,11 +23,12 @@
 
                 <ul class="main-tabs-content">
                     <li id="tab-sola" class="tab-content current">
+                        <form action="/search" method="get">
                         <div class="input-tab">
-                            <input class="sola-search-input" id="txtName" type="text" name="txtName" maxlength="20"
+                            <input class="sola-search-input" id="txtName" type="text" name="phoneNumber" maxlength="20"
                                    placeholder="(*) Số điện thoại (vd: 0987654321)" />
                         </div>
-                        <button type="button" id="btnSearch" name="btnSearch" class="btn-search">
+                        <button type="submit" id="btnSearch" class="btn-search">
                             <span class="search-icon">
                                 <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
                                      data-svg="search">
@@ -39,16 +40,32 @@
                             </span>
                             <span>Tra cứu - Báo cáo số này</span>
                         </button>
-
+                        </form>
                     </li>
                     <li id="tab-diemthi" class="tab-content">
-                        <p>Tao đang phát triển...</p>
+                        <form method="get" id="getExamScore">
+                            <div class="input-tab">
+                                <input class="mark-search-input" id="txtSbd" type="number" name="sbd" maxlength="8"
+                                       placeholder="(*) Nhập số báo danh" />
+                            </div>
+                            <button type="submit" id="btnSearchScore" class="btn-search">
+                                <span class="search-icon">
+                                    <svg width="17" height="17" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                                         data-svg="search">
+                                        <circle fill="none" stroke="#000" stroke-width="1.1" cx="9" cy="9" r="7">
+                                        </circle>
+                                        <path fill="none" stroke="#000" stroke-width="1.1" d="M14,14 L18,18 L14,14 Z">
+                                        </path>
+                                    </svg>
+                                </span>
+                                <span>Tìm kiếm</span>
+                            </button>
+                        </form>
                         <div class="show-content" id="ShowContent"></div>
                     </li>
                 </ul>
             </div>
         </div>
-
     </div>
 </div>
 <!-- End Main Section -->
@@ -75,7 +92,7 @@
                                 @foreach (var report in Model.ReportsList)
                                 {
                                     <tr class="table-text-left">
-                                        <td class="table-text-left"><a href="#">@report.PhoneNumber</a></td>
+                                        <td class="table-text-left"><a asp-page="/PhoneNumber/Index" asp-route-number="@report.PhoneNumber">@report.PhoneNumber</a></td>
                                         <td class="table-text-left">@report.Reports.Comment</td>
                                         <td class="table-text-right">@report.Reports.ReportDate.ToString("dd/MM/yyyy")</td>
                                     </tr>

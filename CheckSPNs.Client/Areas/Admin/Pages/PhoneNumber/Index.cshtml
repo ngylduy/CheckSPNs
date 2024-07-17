@@ -1,0 +1,120 @@
+﻿@page
+@model CheckSPNs.Client.Areas.Admin.Pages.PhoneNumber.IndexModel
+@{
+    ViewData["Title"] = "Manage Phone Number";
+}
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">DataTable with minimal features & hover style</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <table id="example2" class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Phone Number</th>
+                                    <th>Date Added</th>
+                                    <th>Time Report</th>
+                                    <th>Views</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var number in Model.ListPhoneNumber.items)
+                                {
+                                    <tr>
+                                                <td>@number.PhoneNumber</td>
+                                                <td>@number.DateAdded.ToString("dd/MM/yyyy")</td>
+                                                <td>@number.TimesReported</td>
+                                                <td>@number.Views</td>
+                                                <td>
+                                                    @if (number.OverallReportStatus == "Positive") {
+                                                        <span class="badge bg-success">@number.OverallReportStatus</span>
+                                                    }
+                                                    else if (number.OverallReportStatus == "Negative")
+                                                    {
+                                                        <span class="badge bg-danger">@number.OverallReportStatus</span>
+                                                    }
+                                                    else {
+                                                        <span class="badge bg-warning">@number.OverallReportStatus</span>
+                                                    }
+                                                </td>
+                                                <td class="">
+                                                    <a class="btn btn-primary btn-sm" href="#">
+                                                        <i class="fas fa-folder"></i> View
+                                                    </a>
+                                                    <a class="btn btn-info btn-sm" href="#">
+                                                        <i class="fas fa-pencil-alt"></i> Edit
+                                                    </a>
+                                                    <a class="btn btn-danger btn-sm" href="#">
+                                                        <i class="fas fa-trash"></i> Delete
+                                                    </a>
+                                                </td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>Phone Number</th>
+                                    <th>Date Added</th>
+                                    <th>Time Report</th>
+                                    <th>Views</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 col-md-5">
+                                <div class="dataTables_info">
+                                    Showing @(((Model.ListPhoneNumber.pageIndex - 1) * Model.ListPhoneNumber.pageSize) + 1) to
+                                    @Math.Min(Model.ListPhoneNumber.pageIndex * Model.ListPhoneNumber.pageSize, Model.ListPhoneNumber.totalCount)
+                                    of @Model.ListPhoneNumber.totalCount entries
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-md-7">
+                                @if (Model.ListPhoneNumber.totalCount > 0)
+                                {
+                                    <div class="paging_simple_numbers">
+                                        <ul class="pagination justify-content-end">
+                                            <li class="paginate_button page-item @(Model.ListPhoneNumber.hasPreviousPage ? "" : "disabled")">
+                                                <a class="page-link" href="?pageIndex=@(Model.ListPhoneNumber.pageIndex - 1)&pageSize=@Model.ListPhoneNumber.pageSize">Previous</a>
+                                            </li>
+
+                                            @for (int i = 1; i <= Math.Ceiling((double)Model.ListPhoneNumber.totalCount / Model.ListPhoneNumber.pageSize); i++)
+                                            {
+                                                <li class="paginate_button page-item @(Model.ListPhoneNumber.pageIndex == i ? "active" : "")">
+                                                    <a class="page-link" href="?pageIndex=@i&pageSize=@Model.ListPhoneNumber.pageSize">@i</a>
+                                                </li>
+                                            }
+
+                                            <li class="paginate_button page-item @(Model.ListPhoneNumber.hasNextPage ? "" : "disabled")">
+                                                <a class="page-link" href="?pageIndex=@(Model.ListPhoneNumber.pageIndex + 1)&pageSize=@Model.ListPhoneNumber.pageSize">Next</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card --> 
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</section>

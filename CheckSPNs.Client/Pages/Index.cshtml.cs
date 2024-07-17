@@ -1,17 +1,19 @@
 ﻿using CheckSPNs.Client.Data.Model;
+using CheckSPNs.Client.Pages.Shared;
+using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
 using CheckSPNs.Domain.ViewModel;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CheckSPNs.Client.Pages
 {
-    public class IndexModel : PageModel
+    public class IndexModel : BaseModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private readonly HttpClient _httpClient;
 
-        public IndexModel(ILogger<IndexModel> logger)
+        public IndexModel()
         {
-            _logger = logger;
+            _httpClient = new HttpClient();
+            _httpClient.DefaultRequestHeaders.Add("Key", "Value");
         }
 
         public IList<RecentReportPhoneNumber> ReportsList { get; set; } = default!;
@@ -19,33 +21,37 @@ namespace CheckSPNs.Client.Pages
 
         public async Task<IActionResult> OnGet()
         {
-            using (var httpClient = new HttpClient())
+
+            using (HttpResponseMessage response = await _httpClient.GetAsync("https://localhost:5000/recent-report?pageIndex=1&pageSize=20"))
             {
-                httpClient.DefaultRequestHeaders.Add("Key", "Value");
-
-                using (HttpResponseMessage response = await httpClient.GetAsync("https://localhost:5000/recent-report?pageIndex=1&pageSize=20"))
+                if (response.IsSuccessStatusCode)
                 {
-                    if (response.IsSuccessStatusCode)
-                    {
-                        string apiResponse = await response.Content.ReadAsStringAsync();
-                        var list = Newtonsoft.Json.JsonConvert.DeserializeObject<ResponsePaged<RecentReportPhoneNumber>>(apiResponse);
-                        ReportsList = list.value.items;
-                    }
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    var list = Newtonsoft.Json.JsonConvert.DeserializeObject<ResponsePaged<RecentReportPhoneNumber>>(apiResponse);
+                    ReportsList = list.value.items;
                 }
-
-                using (HttpResponseMessage response = await httpClient.GetAsync("https://localhost:5000/prefix"))
-                {
-                    if (response.IsSuccessStatusCode)
-                    {
-                        string apiResponse = await response.Content.ReadAsStringAsync();
-                        var list = Newtonsoft.Json.JsonConvert.DeserializeObject<ResponseList<AggregatePrefixPhoneNumber>>(apiResponse);
-                        PrefixList = list.value;
-                    }
-                }
-
             }
 
+            using (HttpResponseMessage response = await _httpClient.GetAsync("https://localhost:5000/prefix"))
+            {
+                if (response.IsSuccessStatusCode)
+                {
+                    string apiResponse = await response.Content.ReadAsStringAsync();
+                    var list = Newtonsoft.Json.JsonConvert.DeserializeObject<ResponseList<AggregatePrefixPhoneNumber>>(apiResponse);
+                    PrefixList = list.value;
+                }
+            }
+            typeOfReportList = await GetTypeOfReportsAsync();
             return Page();
+        }
+
+        private async Task<IList<TypeOfReports>> GetTypeOfReportsAsync()
+        {
+            using var response = await _httpClient.GetAsync("https://localhost:5000/api/TypeOfReports");
+            response.EnsureSuccessStatusCode();
+            var apiResponse = await response.Content.ReadAsStringAsync();
+            var list = Newtonsoft.Json.JsonConvert.DeserializeObject<ResponseList<TypeOfReports>>(apiResponse);
+            return list?.value ?? new List<TypeOfReports>(); // Return empty list if null
         }
     }
 }

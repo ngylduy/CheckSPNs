@@ -12,7 +12,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CheckSPNs.Client.Data\CheckSPNs.Client.Data.csproj" />
-    <ProjectReference Include="..\CheckSPNs.Domain\CheckSPNs.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Pages\Report\" />
+    <Folder Include="Areas\Admin\Pages\TypeOfReport\" />
   </ItemGroup>
 
 </Project>

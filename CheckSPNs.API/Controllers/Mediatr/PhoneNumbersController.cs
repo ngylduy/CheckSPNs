@@ -17,9 +17,9 @@ namespace CheckSPNs.API.Controllers.Mediatr
 
         [HttpGet]
         [Authorize]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get(int pageIndex = 1, int pageSize = 10)
         {
-            var response = await Sender.Send(new GetPhoneNumberListQuery());
+            var response = await Sender.Send(new GetPhoneNumberListQuery(pageIndex, pageSize));
             return Ok(response);
         }
 
@@ -35,7 +35,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
         }
 
         [HttpPost("/add-report-status")]
-        public async Task<IActionResult> AddOverallReport([FromQuery] AddOverallReportPhoneNumberCommand command)
+        public async Task<IActionResult> AddOverallReport([FromBody] AddOverallReportPhoneNumberCommand command)
         {
             var response = await Sender.Send(command);
             if (response.IsFailure)
@@ -46,7 +46,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
         }
 
         [HttpPost("/add-type-of-report")]
-        public async Task<IActionResult> AddTypeOfReport([FromQuery] AddPhoneNumberTypeOfReportCommand command)
+        public async Task<IActionResult> AddTypeOfReport([FromBody] AddPhoneNumberTypeOfReportCommand command)
         {
             var response = await Sender.Send(command);
             if (response.IsFailure)
@@ -89,6 +89,15 @@ namespace CheckSPNs.API.Controllers.Mediatr
         public async Task<IActionResult> GetRecentReport(int pageIndex = 1, int pageSize = 10)
         {
             var response = await Sender.Send(new GetRecentReportPhoneNumberQuery(pageIndex, pageSize));
+            return Ok(response);
+        }
+
+        [HttpGet("/recent-report-by-type")]
+        public async Task<IActionResult> GetRecentReportByType(Guid typeOfReport, int pageIndex = 1, int pageSize = 10)
+        {
+            var response = await Sender.Send(
+                new GetRecentReportPhoneNumberByTypeQuery(pageIndex, pageSize, typeOfReport)
+            );
             return Ok(response);
         }
 

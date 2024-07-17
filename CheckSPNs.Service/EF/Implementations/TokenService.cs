@@ -63,6 +63,8 @@ public class TokenService : ITokenService
             new Claim(ClaimTypes.Name,user.UserName),
             new Claim(ClaimTypes.NameIdentifier,user.UserName),
             new Claim(ClaimTypes.Email,user.Email),
+            new Claim(nameof(UserClaimModel.PhoneNumber), user.PhoneNumber),
+            new Claim(nameof(UserClaimModel.Id), user.Id.ToString())
         };
         foreach (var role in roles)
         {
@@ -148,6 +150,8 @@ public class TokenService : ITokenService
             new Claim(ClaimTypes.Name,user.UserName),
             new Claim(ClaimTypes.NameIdentifier,user.UserName),
             new Claim(ClaimTypes.Email,user.Email),
+            new Claim(nameof(UserClaimModel.PhoneNumber), user.PhoneNumber),
+            new Claim(nameof(UserClaimModel.Id), user.Id.ToString())
         };
         foreach (var role in roles)
         {

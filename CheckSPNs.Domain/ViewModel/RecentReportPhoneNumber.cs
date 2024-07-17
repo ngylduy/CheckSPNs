@@ -7,7 +7,8 @@ namespace CheckSPNs.Domain.ViewModel
         public Guid Id { get; set; }
         public string PhoneNumber { get; set; } = null!;
         public DateTime DateAdded { get; set; }
-        public int TimesReported { get; set; }
+        public long TimesReported { get; set; }
+        public long Views { get; set; }
 
         public Reports Reports { get; set; }
     }

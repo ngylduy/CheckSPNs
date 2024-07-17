@@ -114,6 +114,13 @@ namespace CheckSPNs.Service.EF.Implementations
             var phoneNumbers = await _unitOfWork.PhoneNumberRepository.GetTableNoTracking()
                 .Include(p => p.Reports.OrderByDescending(r => r.ReportDate))
                 .FirstOrDefaultAsync(x => x.PhoneNumber.Equals(phoneNumber));
+            if (phoneNumbers is not null)
+            {
+
+                phoneNumbers.Views++;
+                _unitOfWork.PhoneNumberRepository.Update(phoneNumbers);
+                await _unitOfWork.CommitAsync();
+            }
             return phoneNumbers;
         }
 
@@ -140,7 +147,6 @@ namespace CheckSPNs.Service.EF.Implementations
             await _unitOfWork.CommitAsync();
         }
 
-
         public IQueryable<RecentReportPhoneNumber> GetRecentReportPhoneNumbers()
         {
             return _unitOfWork.PhoneNumberRepository.GetTableNoTracking().Include(p => p.Reports).Select(x => new RecentReportPhoneNumber
@@ -149,8 +155,30 @@ namespace CheckSPNs.Service.EF.Implementations
                 PhoneNumber = x.PhoneNumber,
                 DateAdded = x.DateAdded,
                 TimesReported = x.TimesReported,
+                Views = x.Views,
                 Reports = x.Reports.OrderByDescending(r => r.ReportDate).FirstOrDefault()
             }).Where(x => x.Reports != null).OrderByDescending(x => x.Reports.ReportDate).AsQueryable();
+        }
+
+        public IQueryable<RecentReportPhoneNumberByType> GetRecentReportPhoneNumbersByType(Guid typeOfReportId)
+        {
+            return _unitOfWork.PhoneNumberRepository.GetTableNoTracking()
+                .Where(x => x.PhoneNumbersTypeOfReports.Any(y => y.TypeOfReportsId == typeOfReportId))
+                .Include(p => p.Reports).Select(x => new RecentReportPhoneNumberByType
+                {
+                    Id = x.Id,
+                    PhoneNumber = x.PhoneNumber,
+                    DateAdded = x.DateAdded,
+                    TimesReported = x.TimesReported,
+                    Views = x.Views,
+                    Reports = x.Reports.OrderByDescending(r => r.ReportDate).FirstOrDefault(),
+                    TypeOfReports = x.PhoneNumbersTypeOfReports.FirstOrDefault(y => y.TypeOfReportsId == typeOfReportId).TypeOfReports
+                }).Where(x => x.Reports != null).OrderByDescending(x => x.Reports.ReportDate).AsQueryable();
+        }
+
+        public IQueryable<PhoneNumbers> GetAllPhoneNumber()
+        {
+            return _unitOfWork.PhoneNumberRepository.GetTableNoTracking().AsQueryable();
         }
     }
 }

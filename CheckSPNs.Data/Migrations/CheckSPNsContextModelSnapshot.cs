@@ -31,19 +31,22 @@ namespace CheckSPNs.Data.Migrations
                     b.Property<DateTime>("DateAdded")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("NegativeReportsCount")
-                        .HasColumnType("int");
+                    b.Property<long>("NegativeReportsCount")
+                        .HasColumnType("bigint");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasMaxLength(10)
                         .HasColumnType("nvarchar(10)");
 
-                    b.Property<int>("PositiveReportsCount")
-                        .HasColumnType("int");
+                    b.Property<long>("PositiveReportsCount")
+                        .HasColumnType("bigint");
 
-                    b.Property<int>("TimesReported")
-                        .HasColumnType("int");
+                    b.Property<long>("TimesReported")
+                        .HasColumnType("bigint");
+
+                    b.Property<long>("Views")
+                        .HasColumnType("bigint");
 
                     b.HasKey("Id");
 
@@ -132,15 +135,15 @@ namespace CheckSPNs.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("d82c43dc-d5de-487e-a0e2-b5e18a239997"),
-                            ConcurrencyStamp = "681dae12-5671-4baf-92ac-8a5e9da98fd9",
+                            Id = new Guid("7c908fd5-1392-4384-9364-e40605538cc5"),
+                            ConcurrencyStamp = "0029c5f0-dea9-4770-b34f-547b926608d3",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = new Guid("c653b23b-d0c5-4d65-8125-86de39ff4af0"),
-                            ConcurrencyStamp = "db37b69a-f235-4d3d-bc5e-c422d6de0fc5",
+                            Id = new Guid("0768b192-8ca2-45f4-8a5e-37740554ec7e"),
+                            ConcurrencyStamp = "193eb899-86f0-4bbe-ad5d-9a5de9603a8b",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -234,11 +237,11 @@ namespace CheckSPNs.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("1b0b061b-ba0d-4b79-8b61-a54402659042"),
+                            Id = new Guid("40414fec-f075-4de2-9e85-f1e3855a9ce0"),
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "0723a4bb-85e5-4431-8cc1-7e60afe6bf41",
-                            DateCreated = new DateTime(2024, 7, 6, 15, 25, 19, 701, DateTimeKind.Local).AddTicks(1738),
-                            Dob = new DateTime(2024, 7, 6, 15, 25, 19, 701, DateTimeKind.Local).AddTicks(1728),
+                            ConcurrencyStamp = "a52577e1-e584-45e3-bb69-77fc1d30ab8c",
+                            DateCreated = new DateTime(2024, 7, 9, 10, 3, 24, 34, DateTimeKind.Local).AddTicks(9589),
+                            Dob = new DateTime(2024, 7, 9, 10, 3, 24, 34, DateTimeKind.Local).AddTicks(9580),
                             Email = "admin@gmail.com",
                             EmailConfirmed = false,
                             FirstName = "Admin",
@@ -246,7 +249,7 @@ namespace CheckSPNs.Data.Migrations
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN@GMAIL.COM",
                             NormalizedUserName = "ADMINISTRATOR",
-                            PasswordHash = "AQAAAAEAACcQAAAAEDW1s7EOaV9TvfvU0zZwxV62+8mWP0n9wxKqJ29h9ppEQb8KJO/hMEfhfMIY1RzhyA==",
+                            PasswordHash = "AQAAAAEAACcQAAAAEHx+Uym7gYCc4nmfYKSaDzQbiTi1hBhG0IWmpv46ODN5RuegFxF64pitQPXjgCJmYw==",
                             PhoneNumberConfirmed = false,
                             PictureUser = "default",
                             Sex = "Male",
@@ -341,8 +344,8 @@ namespace CheckSPNs.Data.Migrations
                     b.HasData(
                         new
                         {
-                            UserId = new Guid("1b0b061b-ba0d-4b79-8b61-a54402659042"),
-                            RoleId = new Guid("d82c43dc-d5de-487e-a0e2-b5e18a239997")
+                            UserId = new Guid("40414fec-f075-4de2-9e85-f1e3855a9ce0"),
+                            RoleId = new Guid("7c908fd5-1392-4384-9364-e40605538cc5")
                         });
                 });
 

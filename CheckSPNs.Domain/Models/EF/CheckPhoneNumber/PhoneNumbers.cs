@@ -10,10 +10,11 @@ namespace CheckSPNs.Domain.Models.EF.CheckPhoneNumber
         [StringLength(10)]
         public string PhoneNumber { get; set; } = null!;
         public DateTime DateAdded { get; set; }
-        public int TimesReported { get; set; }
+        public long TimesReported { get; set; }
+        public long Views { get; set; }
 
-        public int PositiveReportsCount { get; set; }
-        public int NegativeReportsCount { get; set; }
+        public long PositiveReportsCount { get; set; }
+        public long NegativeReportsCount { get; set; }
 
         [NotMapped]
         public string OverallReportStatus

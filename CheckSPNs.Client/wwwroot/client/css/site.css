@@ -262,7 +262,7 @@ html {
             transition: color .1s ease-in-out
         }
 
-#tab-sola input {
+#tab-sola input, #tab-diemthi input {
     border-radius: 5px;
     width: 450px;
     height: 40px;
@@ -275,7 +275,7 @@ html {
     transition-property: color,background-color,border
 }
 
-    #tab-sola input::placeholder {
+    #tab-sola input::placeholder, #tab-diemthi input::placeholder {
         color: #afafaf
     }
 
@@ -581,4 +581,101 @@ html {
     color: #856404;
     background-color: #fff3cd;
     border-color: #ffeeba;
+}
+
+.show-content {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #fff;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: auto;
+    margin: 20px 0;
+}
+
+.show-content > :first-child {
+    -ms-grid-column: 1;
+    -ms-grid-row: 1;
+}
+
+.show-content > :nth-child(2) {
+    -ms-grid-column: 2;
+    -ms-grid-row: 1;
+}
+
+.resultSearch_right {
+    margin-left: 20px;
+}
+
+.resultSearch_left-sbd {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    align-items: center;
+    background: url(https://static-images.vnncdn.net/files/2022/6/2/bg-result.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #447ec5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 25px;
+    height: 246px;
+    justify-content: center;
+    line-height: 18px;
+    margin: auto;
+    text-align: center;
+    width: 246px;
+}
+
+.resultSearch_left-sbd .font-bold {
+    font-size: 42px;
+    line-height: 60px;
+    margin: 5px 0 25px;
+    font-weight: 700;
+}
+
+.resultSearch_left-sbd p:not(.font-bold) {
+    margin: 0!important
+}
+
+.resultSearch_left-info {
+    color: #447ec5;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.resultSearch_left-info .edu-institution {
+    margin: 20px 0 0;
+}
+
+.resultSearch_right table {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.resultSearch_right table thead tr th {
+    background: #e6eef2;
+    border: 1px solid #e2e2e2;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.resultSearch_right table tbody tr td {
+    border: 1px solid #e2e2e2;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 15px 10px;
+    text-align: center;
 }

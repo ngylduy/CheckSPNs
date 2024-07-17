@@ -1,0 +1,358 @@
+2024-07-10 08:49:34.275 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 08:50:10.951 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 08:50:57.367 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 08:51:53.861 +07:00 [ERR] The user ngylduy@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user ngylduy@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 13:37:46.762 +07:00 [ERR] The user ngylduy@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user ngylduy@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:16:45.187 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:16:51.507 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:17:19.299 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:17:23.954 +07:00 [ERR] Value cannot be null. (Parameter 'value')
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CheckSPNs.Service.EF.Implementations.TokenService.GetJWTToken(AppUsers user) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\TokenService.cs:line 61
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 49
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:17:28.962 +07:00 [ERR] Value cannot be null. (Parameter 'value')
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CheckSPNs.Service.EF.Implementations.TokenService.GetJWTToken(AppUsers user) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\TokenService.cs:line 61
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 49
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:19:04.079 +07:00 [ERR] Value cannot be null. (Parameter 'value')
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CheckSPNs.Service.EF.Implementations.TokenService.GetJWTToken(AppUsers user) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\TokenService.cs:line 61
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 49
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:19:20.911 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:19:24.571 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:19:34.794 +07:00 [ERR] The user admin@gmail.com was not found.
+CheckSPNs.Domain.Exceptions.AppUserException+UserNotFoundException: The user admin@gmail.com was not found.
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 39
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:19:54.980 +07:00 [ERR] Value cannot be null. (Parameter 'value')
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CheckSPNs.Service.EF.Implementations.TokenService.GetJWTToken(AppUsers user) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\TokenService.cs:line 61
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 49
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:21:31.078 +07:00 [ERR] Value cannot be null. (Parameter 'value')
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CheckSPNs.Service.EF.Implementations.TokenService.GetJWTToken(AppUsers user) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\TokenService.cs:line 61
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 49
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21
+2024-07-10 14:22:07.801 +07:00 [ERR] Value cannot be null. (Parameter 'value')
+System.ArgumentNullException: Value cannot be null. (Parameter 'value')
+   at System.Security.Claims.Claim..ctor(String type, String value, String valueType, String issuer, String originalIssuer, ClaimsIdentity subject, String propertyKey, String propertyValue)
+   at System.Security.Claims.Claim..ctor(String type, String value)
+   at CheckSPNs.Service.EF.Implementations.TokenService.GetJWTToken(AppUsers user) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Service\EF\Implementations\TokenService.cs:line 61
+   at CheckSPNs.Infrastructure.Features.IdentityFeatures.Authentication.Queries.Handlers.AuthenticationQueryHandler.Handle(LoginQuery request, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Features\IdentityFeatures\Authentication\Queries\Handlers\AuthenticationQueryHandler.cs:line 49
+   at CheckSPNs.Infrastructure.Behaviors.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\Behaviors\ValidationPipelineBehavior.cs:line 36
+   at CheckSPNs.API.Controllers.AuthenticationsController.Get(LoginQuery query) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.API\Controllers\AuthenticationsController.cs:line 23
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at CheckSPNs.Infrastructure.MiddleWare.ErrorHandlerMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Data\Documents\.NET API\CheckSPNs\CheckSPNs.Infrastructure\MiddleWare\ErrorHandlerMiddleware.cs:line 21

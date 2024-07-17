@@ -1,0 +1,79 @@
+﻿@page
+@model CheckSPNs.Client.Areas.Admin.Pages.ExamScore.IndexModel
+@{
+    ViewData["Title"] = "Manage Exam Score";
+}
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Exam Score</h3>
+                        <div class="card-tools">
+                            Có tổng <span id="exam-count"></span>
+                        </div>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <table id="example2" class="table table-bordered table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Toán</th>
+                                            <th>Ngữ Văn</th>
+                                            <th>Ngoại Ngữ</th>
+                                            <th>Vật Lí</th>
+                                            <th>Hoá Học</th>
+                                            <th>Sinh Học</th>
+                                            <th>Lịch Sử</th>
+                                            <th>Địa Lí</th>
+                                            <th>GDCD</th>
+                                            <th>Mã ngoại ngữ</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="examTBody">
+                                        
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Toán</th>
+                                            <th>Ngữ Văn</th>
+                                            <th>Ngoại Ngữ</th>
+                                            <th>Vật Lí</th>
+                                            <th>Hoá Học</th>
+                                            <th>Sinh Học</th>
+                                            <th>Lịch Sử</th>
+                                            <th>Địa Lí</th>
+                                            <th>GDCD</th>
+                                            <th>Mã ngoại ngữ</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="dataTables_info">
+                                    <button id="loadMoreBtn" class="btn btn-primary btn-sm">Load More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+</section>
+
+<script src="~/admin/js/pages/examscore.js"></script>

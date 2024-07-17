@@ -1,4 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@using System.Text.RegularExpressions
+@using CheckSPNs.Client.Data.Helpers
+@model BaseModel
+
+@inject IHttpContextAccessor httpContextAccessor
+
+@{
+    var token = httpContextAccessor.HttpContext.Session.GetString("token");
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -50,6 +61,24 @@
 </head>
 
 <body>
+    @{
+        string GenerateSlug(string title)
+        {
+            // Convert to lower case
+            var slug = title.ToLowerInvariant();
+
+            // Replace spaces with hyphens
+            slug = slug.Replace(" ", "-");
+
+            // Remove invalid characters
+            slug = Regex.Replace(slug, @"[^a-z0-9\s-]", "");
+
+            // Trim and ensure it's unique
+            // You might need to check against your database and append a number if a duplicate exists
+
+            return slug;
+        }
+    }
     <!-- Header -->
     <nav id="nav-header" style="background-image: -webkit-linear-gradient(left, #d2cbcb, #e4dada, #ece5e5, #f3dfdf);">
         <div class="menu-navbar-container menu-navbar">
@@ -62,24 +91,33 @@
                     <span class="menu-header">Check<strong>SPNs</strong></span>
                 </a>
                 <div class="menu-navbar-item">
-                    <div class="menu-item">
-                        <a href="nha-may-t1.html">
-                            <span class="menu-text"> Nhá máy </span>
-                        </a>
-                    </div>
-                    <div class="menu-item">
-                        <a href="goi-nho-t2.html">
-                            <span class="menu-text"> Gọi nhỡ </span>
-                        </a>
-                    </div>
+
+                    @if (Model.typeOfReportList != null)
+                    {
+                        @foreach (var report in Model.typeOfReportList)
+                        {
+                            <div class="menu-item">
+                                <a asp-page="/Type/Index" asp-route-id="@report.Id">
+                                    <span class="menu-text"> @report.TypeOfReport</span>
+                                </a>
+                            </div>
+                        }
+                    }
                 </div>
             </div>
             <div class="menu-navbar-right">
                 <ul class="menu-navbar-nav">
                     <li>
-                        <a class="btn-lien-he" href="/">
-                            Liên hệ
-                        </a>
+                        @if (token is not null && CheckService.IsAdmin(token)) {
+                            <a class="btn-lien-he" asp-page="/Remote/Index" asp-area="Admin">
+                                Admin Dashboard
+                            </a>
+                        } else
+                        {
+                            <a class="btn-lien-he" href="/">
+                                Liên hệ
+                            </a>
+                        }
                     </li>
                 </ul>
             </div>

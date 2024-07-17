@@ -92,6 +92,7 @@ namespace CheckSPNs.Data.EF.Context
                 Email = email,
                 NormalizedEmail = email.ToUpper(),
                 AccessFailedCount = 0,
+                EmailConfirmed = true,
                 PasswordHash = passwordHasherService.HashPassword(new AppUsers
                 {
                     UserName = username.ToLower(),

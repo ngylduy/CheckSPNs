@@ -1,6 +1,7 @@
 ﻿@page "/phonenumber/{number}"
 @model CheckSPNs.Client.Pages.PhoneNumber.IndexModel
 @{
+    ViewData["Title"] = "Số Điện Thoại " + @Request.RouteValues["number"];
 }
 
 
@@ -13,9 +14,10 @@
             @if (Model.phoneNumbers != null) {
                 <p>
                 Ngày báo cáo: <b>@Model.phoneNumbers.DateAdded</b>
-                - Mới nhất: <b>06/07/2024 19:21</b>
-                - Lượt xem: <b>159</b>
-                - Lượt tìm kiếm: <b>9</b>
+                @if(Model.phoneNumbers.Reports.FirstOrDefault() is not null){
+                    @Html.Raw("- Mới nhất: <b>" + @Model.phoneNumbers.Reports.FirstOrDefault().ReportDate + "</b>")
+                }
+                - Lượt xem: <b>@Model.phoneNumbers.Views</b>
                 - Lần báo cáo: <b>@Model.phoneNumbers.TimesReported +</b>
                 </p>
                 <span class="result-text">
@@ -42,33 +44,23 @@
                     là ai hoặc cung cấp thông tin để báo cáo phản ánh để mọi người cùng đề phòng lừa đảo nhé !
                     <br><br>
                     <div>
-                        <input type="radio" name="txtType" value="1" class="input-type-of-report" /> Nhá máy
 
-                        <input type="radio" name="txtType" value="2" class="input-type-of-report" /> Gọi nhỡ
-
-                        <input type="radio" name="txtType" value="3" class="input-type-of-report" /> Làm phiền
-
-                        <input type="radio" name="txtType" value="4" class="input-type-of-report" /> Bảo hiểm
-
-                        <input type="radio" name="txtType" value="5" class="input-type-of-report" /> Tài chính
-
-                        <input type="radio" name="txtType" value="6" class="input-type-of-report" /> Lừa đảo
-
-                        <input type="radio" name="txtType" value="7" class="input-type-of-report" /> Làm quen kết
-                        bạn
-
-                        <input type="radio" name="txtType" value="8" class="input-type-of-report" /> Mời nhận quà
-
-                        <input type="radio" name="txtType" value="99" class="input-type-of-report" /> Khác
+                        @if (Model.listTypeOfReports != null)
+                        {
+                            @foreach (var typeOfReport in Model.listTypeOfReports)
+                            {
+                                <input asp-for="addNewReport.TypeOfReport" type="radio" value="@typeOfReport.Id" class="input-type-of-report" />
+                                <label asp-for="addNewReport.TypeOfReport">@typeOfReport.TypeOfReport</label>
+                            }
+                        }
 
                         <br><br>
 
-                        <textarea class="textarea-report-comment" rows="3" type="text" name="txtComment"
-                                  placeholder="Nội dung báo cáo - phản ánh số điện thoại @this.Request.RouteValues["number"]"></textarea>
+                        <textarea required class="textarea-report-comment" asp-for="addNewReport.Comment" placeholder="Nội dung báo cáo - phản ánh số điện thoại @this.Request.RouteValues["number"]"></textarea>
 
                     </div>
                 </div>
-
+                <span asp-validation-for="addNewReport.Comment" class="text-danger"></span>
                 <div class="report-submit">
                     <button type="submit" name="btnSearch" class="btn-search">
                         Gửi báo cáo số này
@@ -85,12 +77,13 @@
     <div class="main-card-body vote-body">
 
         <div class="vote-content">
-            <a id="btn-negative" data-value="-1" class="btn btn-danger">
-                Tiêu cực: <span class="negative-value">@if (Model.phoneNumbers != null) {
+            <a id="btn-negative" data-value="1" class="btn btn-danger">
+                Tiêu cực: <span class="negative-value report-value">@if (Model.phoneNumbers != null) {
                     @Model.phoneNumbers.NegativeReportsCount}else{@Html.Raw(0)}</span>
             </a>
-            <a id="btn-positive" data-value="1" class="btn btn-success">
-                Tích cực: <span class="positive-value">@if (Model.phoneNumbers != null)
+            <a id="btn-positive" data-value="0" class="btn btn-success">
+                Tích cực: <span class="positive-value report-value">
+                    @if (Model.phoneNumbers != null)
                     {
                         @Model.phoneNumbers.PositiveReportsCount
                     }

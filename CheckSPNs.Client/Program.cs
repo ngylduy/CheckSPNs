@@ -1,10 +1,18 @@
-﻿namespace CheckSPNs.Client
+﻿using CheckSPNs.Client.Data;
+using CheckSPNs.Client.Data.Service.Abstract;
+using CheckSPNs.Client.Data.Service.Implementation;
+
+namespace CheckSPNs.Client
 {
     public class Program
     {
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+
+            builder.Services.AddSession();
+
+            ApiBase.APIBaseUrl = builder.Configuration["ServiceUrls:BaseUrlAPI"];
 
             // Add services to the container.
             builder.Services.AddRazorPages().AddRazorPagesOptions(options =>
@@ -13,7 +21,6 @@
                         "/Privacy",
                         "/chinh-sach.html"
                     );
-
                     options.Conventions.AddAreaPageRoute(
                         areaName: "Product",
                         pageName: "/Detail",
@@ -27,6 +34,15 @@
                 options.LowercaseUrls = true;
                 options.LowercaseQueryStrings = true;
             });
+
+            builder.Services.AddAntiforgery(o => o.HeaderName = "XSRF-TOKEN");
+
+            builder.Services.AddHttpClient();
+            builder.Services.AddHttpContextAccessor();
+
+            builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<IStatService, StatService>();
+            builder.Services.AddScoped<IPhoneNumberService, PhoneNumberService>();
 
             var app = builder.Build();
 
@@ -45,7 +61,7 @@
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            app.UseSession();
             app.UseAuthorization();
 
             app.MapRazorPages();

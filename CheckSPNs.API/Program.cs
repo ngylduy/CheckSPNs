@@ -1,4 +1,5 @@
 using Alachisoft.NCache.Caching.Distributed;
+using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
 using CheckSPNs.Domain.Models.MongoDb.CheckExamScore;
 using CheckSPNs.Infrastructure.Configuration;
 using CheckSPNs.Infrastructure.MiddleWare;
@@ -61,6 +62,7 @@ namespace CheckSPNs.API
             //Odata config
             ODataConventionModelBuilder modelBuilder = new ODataConventionModelBuilder();
             modelBuilder.EntitySet<ExamScore>("ExamScoreOData");
+            modelBuilder.EntitySet<TypeOfReports>("TypeOfReportOData");
             builder.Services.AddControllers().AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100)
             .AddRouteComponents("odata", model: modelBuilder.GetEdmModel()));
 
