@@ -2,6 +2,7 @@
 using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Commands.Models;
 using CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Queries.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CheckSPNs.API.Controllers.Mediatr
@@ -14,6 +15,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
         {
         }
 
+        [AllowAnonymous]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetScoreById(string id)
         {
@@ -21,6 +23,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("import")]
         public async Task<IActionResult> ImportCsv(IFormFile file)
         {
@@ -28,6 +31,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost("import-province")]
         public async Task<IActionResult> ImportProvince(IFormFile file)
         {

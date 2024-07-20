@@ -5,7 +5,7 @@
 @inject IHttpContextAccessor httpContextAccessor
 
 @{
-    var token = httpContextAccessor.HttpContext.Session.GetString("token");
+    var token = httpContextAccessor.HttpContext.Session.GetString("AccessToken");
 }
 
 

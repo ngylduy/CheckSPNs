@@ -1,0 +1,121 @@
+﻿@page
+@model CheckSPNs.Client.Areas.Admin.Pages.TypeOfReport.IndexModel
+@{
+    ViewData["Title"] = "Manage Type Of Report";
+}
+
+<!-- Main content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Type Of Report</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Type Of Report</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.ListTypeOfReport is not null) {
+                                    @foreach (var typeOfReport in Model.ListTypeOfReport)
+                                    {
+                                        <tr>
+                                            <td>@typeOfReport.TypeOfReport</td>
+                                            <td>
+                                                <a class="btn btn-info btn-sm" href="#">
+                                                    <i class="fas fa-pencil-alt"></i>  Edit
+                                                </a>
+                                                <a class="btn btn-danger btn-delete btn-sm" asp-page="/TypeOfReport/Delete" asp-route-id="@typeOfReport.Id" asp-area="Admin" data-toggle="modal" data-target="#modal-delete">
+                                                    <i class="fas fa-trash"></i> Delete
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+
+            <!-- /.col -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Add a new Type Of Report</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <form method="post">
+                            <div class="input-group">
+                                <input asp-for="TypeOfReportName" type="text" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-danger">Add new</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+<!-- /.content -->
+
+<div class="modal fade" id="modal-delete">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px 1rem;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure to delete?</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-sm btn-primary">Delete</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<script>
+    $('#modal-delete').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var url = button.attr('href');
+        $(this).find('.btn-primary').attr('data-href', url);
+    });
+
+    $('#modal-delete').on('click', '.btn-primary', function () {
+        var urls = $(this).data('href');
+
+        console.log(urls);
+
+        $.ajax({
+            url: urls,
+            type: 'GET',
+            success: function (result) {
+                location.reload();
+            }
+        });
+    });
+</script>

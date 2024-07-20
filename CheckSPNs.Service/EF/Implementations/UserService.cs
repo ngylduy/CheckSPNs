@@ -5,6 +5,7 @@ using CheckSPNs.Service.EF.Abstract;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using static CheckSPNs.Domain.Exceptions.AppUserException;
 
 namespace CheckSPNs.Service.EF.Implementations
@@ -72,6 +73,21 @@ namespace CheckSPNs.Service.EF.Implementations
                 await trans.RollbackAsync();
                 throw new Exception(ex.Message);
             }
+        }
+
+        public IQueryable<AppUsers> GetListUsers()
+        {
+            return _userManager.Users.AsQueryable();
+        }
+
+        public async Task<AppUsers> GetUserById(Guid id)
+        {
+            var user = await _userManager.Users.FirstOrDefaultAsync(x => x.Id == id);
+            if (user is null)
+            {
+                throw new UserNotFoundException(id);
+            }
+            return user;
         }
     }
 }

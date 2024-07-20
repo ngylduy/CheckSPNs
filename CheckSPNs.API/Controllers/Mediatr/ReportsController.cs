@@ -2,6 +2,7 @@
 using CheckSPNs.Infrastructure.Features.ReportFeatures.Commands.Models;
 using CheckSPNs.Infrastructure.Features.ReportFeatures.Queries.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CheckSPNs.API.Controllers.Mediatr
@@ -14,6 +15,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
         {
         }
 
+        [AllowAnonymous]
         [HttpGet("{Id}")]
         public async Task<IActionResult> Get(Guid Id)
         {
@@ -21,6 +23,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(result);
         }
 
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> Get(int pageIndex = 1, int pageSize = 10)
         {
@@ -28,6 +31,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(result);
         }
 
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddReportCommand command)
         {
@@ -39,6 +43,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] EditReportCommand command)
         {
@@ -50,6 +55,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(result);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

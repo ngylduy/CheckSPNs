@@ -9,6 +9,7 @@
       "CheckSPNs.Client/1.0.0": {
         "dependencies": {
           "CheckSPNs.Client.Data": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.32",
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
@@ -20,6 +21,17 @@
           "lib/net6.0/CsvHelper.dll": {
             "assemblyVersion": "33.0.0.0",
             "fileVersion": "33.0.1.24"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.32": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.35.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "6.0.32.0",
+            "fileVersion": "6.0.3224.31405"
           }
         }
       },
@@ -40,6 +52,17 @@
             "assemblyVersion": "6.0.0.0",
             "fileVersion": "6.0.3024.21619"
           }
+        }
+      },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.7.2"
+        }
+      },
+      "Microsoft.AspNetCore.Http.Features/2.2.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "8.0.0"
         }
       },
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.30": {
@@ -264,6 +287,30 @@
           }
         }
       },
+      "Microsoft.IdentityModel.Protocols/6.35.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Logging": "6.35.0",
+          "Microsoft.IdentityModel.Tokens": "6.35.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Protocols.dll": {
+            "assemblyVersion": "6.35.0.0",
+            "fileVersion": "6.35.0.41201"
+          }
+        }
+      },
+      "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.35.0": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols": "6.35.0",
+          "System.IdentityModel.Tokens.Jwt": "6.35.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll": {
+            "assemblyVersion": "6.35.0.0",
+            "fileVersion": "6.35.0.41201"
+          }
+        }
+      },
       "Microsoft.IdentityModel.Tokens/6.35.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -348,6 +395,7 @@
       "CheckSPNs.Client.Data/1.0.0": {
         "dependencies": {
           "CheckSPNs.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.Extensions.Http": "8.0.0",
           "Newtonsoft.Json": "13.0.3",
           "System.IdentityModel.Tokens.Jwt": "6.35.0"
@@ -382,6 +430,13 @@
       "path": "csvhelper/33.0.1",
       "hashPath": "csvhelper.33.0.1.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/6.0.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jKOKSNc2F/ZFE5UQcDUzGkmwyn9BOMvKsbg+bkFiJRKJTyF06ItAx/My08Ff420U4NGOncRE/n6J0yVjUjjrQw==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/6.0.32",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.6.0.32.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.30": {
       "type": "package",
       "serviceable": true,
@@ -395,6 +450,20 @@
       "sha512": "sha512-57EcNH3omXD8ZVpHVy7J6r8T5wXzVgSPOSJELv/Mbx+61WRIzmqC8SV4d929gtZxPWPXpv6fwo2noBLq3p30CQ==",
       "path": "microsoft.aspnetcore.cryptography.keyderivation/6.0.30",
       "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.6.0.30.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Http.Features/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ziFz5zH8f33En4dX81LW84I6XrYXKf9jg6aM39cM+LffN9KJahViKZ61dGMSO2gd3e+qe5yBRwsesvyqlZaSMg==",
+      "path": "microsoft.aspnetcore.http.features/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Identity.EntityFrameworkCore/6.0.30": {
       "type": "package",
@@ -542,6 +611,20 @@
       "sha512": "sha512-jePrSfGAmqT81JDCNSY+fxVWoGuJKt9e6eJ+vT7+quVS55nWl//jGjUQn4eFtVKt4rt5dXaleZdHRB9J9AJZ7Q==",
       "path": "microsoft.identitymodel.logging/6.35.0",
       "hashPath": "microsoft.identitymodel.logging.6.35.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols/6.35.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BPQhlDzdFvv1PzaUxNSk+VEPwezlDEVADIKmyxubw7IiELK18uJ06RQ9QKKkds30XI+gDu9n8j24XQ8w7fjWcg==",
+      "path": "microsoft.identitymodel.protocols/6.35.0",
+      "hashPath": "microsoft.identitymodel.protocols.6.35.0.nupkg.sha512"
+    },
+    "Microsoft.IdentityModel.Protocols.OpenIdConnect/6.35.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LMtVqnECCCdSmyFoCOxIE5tXQqkOLrvGrL7OxHg41DIm1bpWtaCdGyVcTAfOQpJXvzND9zUKIN/lhngPkYR8vg==",
+      "path": "microsoft.identitymodel.protocols.openidconnect/6.35.0",
+      "hashPath": "microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512"
     },
     "Microsoft.IdentityModel.Tokens/6.35.0": {
       "type": "package",

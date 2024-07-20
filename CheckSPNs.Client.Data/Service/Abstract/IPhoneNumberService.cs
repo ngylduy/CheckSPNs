@@ -3,5 +3,6 @@
     public interface IPhoneNumberService
     {
         Task<T> GetAllPhoneNumbersAsync<T>(string token, int pageIndex = 1, int pageSize = 10);
+        Task<T> GetPhoneNumberDetailAsync<T>(string phoneNumber);
     }
 }

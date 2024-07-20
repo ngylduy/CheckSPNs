@@ -1,4 +1,3 @@
-using CheckSPNs.Client.Data.Helpers;
 using CheckSPNs.Client.Data.Model;
 using CheckSPNs.Client.Data.Service.Abstract;
 using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
@@ -21,13 +20,13 @@ namespace CheckSPNs.Client.Areas.Admin.Pages.PhoneNumber
 
         public async Task<IActionResult> OnGet(int pageIndex = 1, int pageSize = 10)
         {
-            var token = HttpContext.Session.GetString("token");
+            var token = HttpContext.Session.GetString("AccessToken");
             if (token is not null)
             {
-                if (!CheckService.IsAdmin(token))
-                {
-                    return NotFound();
-                }
+                //if (!CheckService.IsAdmin(token))
+                //{
+                //    return NotFound();
+                //}
 
                 var result = await _phoneNumberService.GetAllPhoneNumbersAsync<ResponsePaged<PhoneNumbers>>(token, pageIndex, pageSize);
                 if (result.isSuccess && result.value is not null)

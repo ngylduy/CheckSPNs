@@ -83,7 +83,7 @@
             },
             "MongoDB.Driver": {
               "target": "Package",
-              "version": "[2.26.0, )"
+              "version": "[2.27.0, )"
             }
           },
           "imports": [
@@ -413,7 +413,7 @@
             },
             "MimeKit": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[4.7.1, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -40,6 +40,7 @@ namespace CheckSPNs.API.Controllers
             return Ok(result);
         }
 
+        [AllowAnonymous]
         [HttpGet("/confirm-email")]
         public async Task<IActionResult> ConfirmEmail([FromQuery] ConfirmEmailCommand command)
         {

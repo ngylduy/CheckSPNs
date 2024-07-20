@@ -1,0 +1,192 @@
+﻿@page "/phonenumber/detail/{number}"
+@model CheckSPNs.Client.Areas.Admin.Pages.PhoneNumber.DetailModel
+@{
+    ViewData["Title"] = "PhoneNumber Detail";
+
+}
+
+
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">PhoneNumber Detail</h3>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12 col-md-12 col-lg-8 order-2 order-md-1">
+                    <div class="row">
+
+                        <div class="col-12 col-sm-4">
+                            <div class="info-box bg-light">
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-center text-muted">Views</span>
+                                    <span class="info-box-number text-center text-muted mb-0">@Model.PhoneNumber.Views</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4">
+                            <div class="info-box bg-light">
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-center text-muted">Reports</span>
+                                    <span class="info-box-number text-center text-muted mb-0">@Model.PhoneNumber.TimesReported</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-4">
+                            <div class="info-box bg-light">
+                                <div class="info-box-content">
+                                    <span class="info-box-text text-center text-muted">Date Added</span>
+                                    <span class="info-box-number text-center text-muted mb-0">@Model.PhoneNumber.DateAdded.ToString("dd/MM/yyyy")</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <h4>Recent Report</h4>
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Date</th>
+                                                <th>Report</th>
+                                                <th asp-authorize asp-roles="Admin" asp-policy="AllowDelete"></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var report in Model.PhoneNumber.Reports)
+                                            {
+                                                <tr>
+                                                    <td>@report.ReportDate.ToString("dd/MM/yyyy")</td>
+                                                    <td>@report.Comment</td>
+                                                    <td asp-authorize asp-roles="Admin,User" asp-policy="AllowDelete" class="text-right py-0 align-middle">
+                                                        <div class="btn-group btn-group-sm">
+                                                            <button type="button" class="btn btn-danger" data-reportid="@report.Id" data-toggle="modal" data-target="#modal-delete-report"><i class="fas fa-trash"></i></button>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-12 col-lg-4 order-1 order-md-2">
+                    <h3 class="text-primary"><i class="fas fa-phone-square-alt"></i> @Model.PhoneNumber.PhoneNumber</h3>
+                    <div class="text-muted">
+                        @if (Model.PhoneNumber.OverallReportStatus == "Negative"){
+                            <span style="padding: 4px 10px;" class="bg-danger">Tiêu cực</span>
+                        }
+                        else if (Model.PhoneNumber.OverallReportStatus == "Positive"){
+                            <span style="padding: 4px 10px;" class="bg-success">Tích cực</span>
+                        }
+                        else{
+                            <span style="padding: 4px 10px;" class="bg-warning">Trung lập</span>
+                        }
+                    </div>
+
+                    <div asp-authorize asp-roles="Admin,User" asp-policy="AllowDelete" class="text-center mt-5 mb-3">
+                        <button type="button" class="btn btn-sm btn-danger" data-numberid="@Model.PhoneNumber.Id" data-toggle="modal" data-target="#modal-delete">Delete</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+
+</section>
+
+<div class="modal fade" id="modal-delete">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px 1rem;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure to delete?</p>
+                <p>This action also delete all of Report in this number.</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-sm btn-primary">Delete</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<div class="modal fade" id="modal-delete-report">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 10px 1rem;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure to delete this Report?</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-sm btn-primary">Delete</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+
+<script>
+    $(document).ready(function () {
+        $('#modal-delete').on('show.bs.modal', function (e) {
+            var itemId = $(e.relatedTarget).data('numberid');
+            $(this).find('.btn-primary').attr('data-numberid', itemId);
+        });
+
+        $('#modal-delete').on('click', '.btn-primary', function () {
+            var itemId = $(this).data('numberid');
+            $.ajax({
+                url: 'https://localhost:5000/api/PhoneNumbers/' + itemId,
+                type: 'DELETE',
+                success: function (result) {
+                    window.location.href = '/admin/phonenumber';
+                },
+                error: function (error) {
+                    alert(error);
+                }
+            });
+        });
+
+        $('#modal-delete-report').on('show.bs.modal', function (e) {
+            var itemId = $(e.relatedTarget).data('reportid');
+            $(this).find('.btn-primary').attr('data-reportid', itemId);
+        });
+
+        $('#modal-delete-report').on('click', '.btn-primary', function () {
+            var itemId = $(this).data('reportid');
+            $.ajax({
+                url: 'https://localhost:5000/api/Reports/' + itemId,
+                type: 'DELETE',
+                success: function (result) {
+                    window.location.reload();
+                },
+                error: function (error) {
+                    alert(error);
+                }
+            });
+        });
+    });
+</script>

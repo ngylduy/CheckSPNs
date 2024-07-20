@@ -27,10 +27,6 @@ namespace CheckSPNs.API.Controllers.Mediatr
         public async Task<IActionResult> Create([FromBody] ReportPhoneNumberCommand command)
         {
             var response = await Sender.Send(command);
-            //if (response.IsFailure)
-            //{
-            //    return HandlerFailure(response);
-            //}
             return Ok(response);
         }
 
@@ -74,6 +70,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(response);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

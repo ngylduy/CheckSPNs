@@ -20,5 +20,14 @@ namespace CheckSPNs.Client.Data.Service.Implementation
                 AccessToken = token
             });
         }
+
+        public async Task<T> GetPhoneNumberDetailAsync<T>(string phoneNumber)
+        {
+            return await this.SendAsync<T>(new ApiRequest()
+            {
+                ApiType = ApiBase.APIType.GET,
+                Url = ApiBase.APIBaseUrl + $"/api/PhoneNumbers/{phoneNumber}"
+            });
+        }
     }
 }

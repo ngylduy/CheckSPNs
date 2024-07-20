@@ -7,16 +7,16 @@ namespace CheckSPNs.Service.MongoDb.Implementations
 {
     public class ExamScoreService : IExamScoreService
     {
-        private readonly IMongoRepository<ExamScore> _examScoreRepository;
+        private readonly IMongoRepository<ExamScore2024> _examScoreRepository;
         private readonly IMongoRepository<ProvinceCity> _provinceCityRepository;
 
-        public ExamScoreService(IMongoRepository<ExamScore> examScoreRepository, IMongoRepository<ProvinceCity> provinceCityRepository)
+        public ExamScoreService(IMongoRepository<ExamScore2024> examScoreRepository, IMongoRepository<ProvinceCity> provinceCityRepository)
         {
             _examScoreRepository = examScoreRepository;
             _provinceCityRepository = provinceCityRepository;
         }
 
-        public IQueryable<ExamScore> GetExamScore() => _examScoreRepository.GetAll();
+        public IQueryable<ExamScore2024> GetExamScore() => _examScoreRepository.GetAll();
 
 
         public async Task<ExamScoreDTO> GetExamScoreByIdAsync(string id)
@@ -45,7 +45,7 @@ namespace CheckSPNs.Service.MongoDb.Implementations
             };
         }
 
-        public async Task<string> ImportCsv(List<ExamScore> examScore)
+        public async Task<string> ImportCsv(List<ExamScore2024> examScore)
         {
             await _examScoreRepository.InsertAsync(examScore);
             return "Success";

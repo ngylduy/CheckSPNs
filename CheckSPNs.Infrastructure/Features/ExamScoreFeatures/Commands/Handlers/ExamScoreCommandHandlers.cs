@@ -36,7 +36,7 @@ namespace CheckSPNs.Infrastructure.Features.ExamScoreFeatures.Commands.Handlers
         public async Task<Result> Handle(ImportFileScoreCommand request, CancellationToken cancellationToken)
         {
             var examScores = _cSVHelper.ReadCsv<ExamScoreDTO>(request.File);
-            var examScoresMapper = _mapper.Map<List<ExamScore>>(examScores);
+            var examScoresMapper = _mapper.Map<List<ExamScore2024>>(examScores);
 
             var result = await _examScoreService.ImportCsv(examScoresMapper);
 

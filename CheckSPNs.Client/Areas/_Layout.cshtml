@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="~/admin/plugins/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="~/admin/plugins/select2/css/select2.min.css">
     <!-- Ionicons -->
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Tempusdominus Bootstrap 4 -->
@@ -101,7 +102,7 @@
                         <!-- Add icons to the links using the .nav-icon class
                              with font-awesome or any other icon font library -->
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a asp-page="/Remote/Index" asp-area="Admin" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
                                     Dashboard
@@ -109,119 +110,59 @@
                             </a>
                         </li>
 
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-th"></i>
-                                <p>
-                                    Widgets
-                                    <span class="right badge badge-danger">New</span>
-                                </p>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-copy"></i>
-                                <p>
-                                    Layout Options
-                                    <i class="fas fa-angle-left right"></i>
-                                    <span class="badge badge-info right">6</span>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-header">MULTI LEVEL EXAMPLE</li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="fas fa-circle nav-icon"></i>
-                                <p>Level 1</p>
-                            </a>
-                        </li>
+                        <li class="nav-header">System Management</li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-circle"></i>
                                 <p>
-                                    Level 1
+                                    PhoneNumber
                                     <i class="right fas fa-angle-left"></i>
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
+                                    <a asp-page="/PhoneNumber/Index" asp-area="Admin" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Level 2</p>
+                                        <p>List</p>
                                     </a>
                                 </li>
-                                <li class="nav-item">
+                                <li asp-authorize asp-roles="Admin" class="nav-item">
                                     <a href="#" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>
-                                            Level 2
-                                            <i class="right fas fa-angle-left"></i>
-                                        </p>
-                                    </a>
-                                    <ul class="nav nav-treeview">
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="far fa-dot-circle nav-icon"></i>
-                                                <p>Level 3</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="far fa-dot-circle nav-icon"></i>
-                                                <p>Level 3</p>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#" class="nav-link">
-                                                <i class="far fa-dot-circle nav-icon"></i>
-                                                <p>Level 3</p>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Level 2</p>
+                                        <p>Create</p>
                                     </a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="nav-header">LABELS</li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-circle text-danger"></i>
-                                <p class="text">Important</p>
+
+                        <li asp-authorize asp-roles="Admin" class="nav-item">
+                            <a asp-page="/TypeOfReport/Index" asp-area="Admin" class="nav-link">
+                                <i class="nav-icon fas fa-circle"></i>
+                                <p>Type Of Report</p>
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-circle text-warning"></i>
-                                <p>Warning</p>
+
+                        <li asp-authorize asp-roles="Admin"  class="nav-item">
+                            <a asp-page="/Report/Index" asp-area="Admin" class="nav-link">
+                                <i class="nav-icon fas fa-circle"></i>
+                                <p>Report</p>
                             </a>
                         </li>
+
                         <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-circle text-info"></i>
-                                <p>Informational</p>
+                            <a asp-authorize asp-roles="Admin" asp-page="/ExamScore/Index" asp-area="Admin" class="nav-link">
+                                <i class="nav-icon fas fa-circle"></i>
+                                <p>Exam Score</p>
                             </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a asp-authorize asp-roles="Admin" asp-page="/User/Index" asp-area="Admin" class="nav-link">
+                                <i class="nav-icon fas fa-circle"></i>
+                                <p>Users</p>
+                            </a>
+                        </li>
+
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

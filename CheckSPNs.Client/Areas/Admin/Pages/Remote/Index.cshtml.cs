@@ -1,13 +1,14 @@
-using CheckSPNs.Client.Data.Helpers;
 using CheckSPNs.Client.Data.Model;
 using CheckSPNs.Client.Data.Service.Abstract;
 using CheckSPNs.Domain.Models.EF.CheckPhoneNumber;
 using CheckSPNs.Domain.ViewModel.Stats;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CheckSPNs.Client.Areas.Admin.Pages.Remote
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly IStatService _statService;
@@ -28,13 +29,13 @@ namespace CheckSPNs.Client.Areas.Admin.Pages.Remote
 
         public async Task<IActionResult> OnGet()
         {
-            var token = HttpContext.Session.GetString("token");
+            var token = HttpContext.Session.GetString("AccessToken");
             if (token is not null)
             {
-                if (!CheckService.IsAdmin(token))
-                {
-                    return NotFound();
-                }
+                //if (!CheckService.IsAdmin(token))
+                //{
+                //    return NotFound();
+                //}
 
                 var result = await _statService.GetPhoneNumberStat<Response<PhoneNumberStatByStatus>>(token);
                 var listPhoneNumber = await _statService.GetTopRepeportPhoneNumberStat<ResponsePaged<PhoneNumbers>>(token);

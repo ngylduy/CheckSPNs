@@ -1,0 +1,93 @@
+﻿@page
+@model CheckSPNs.Client.Areas.Admin.Pages.User.IndexModel
+@{
+    ViewData["Title"] = "Manage User";
+}
+
+<section class="content">
+
+    <!-- Default box -->
+    <div class="card">
+        <div class="card-header">
+            <h3 class="card-title">Users</h3>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-striped projects">
+                <thead>
+                    <tr>
+                        <th>
+                            User Name
+                        </th>
+                        <th>
+                            Full Name
+                        </th>
+                        <th>
+                            Email
+                        </th>
+                        <th>
+                            PhoneNumber
+                        </th>
+                        <th class="text-center">
+                            Status
+                        </th>
+                        <th>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model.ListUser is not null)
+                    {
+                        foreach(var user in Model.ListUser)
+                        {
+                            <tr>
+                                <td>
+                                    @user.UserName
+                                </td>
+                                <td>
+                                    <a>
+                                        @user.FirstName @user.LastName
+                                    </a>
+                                    <br />
+                                    <small>
+                                        @user.DateCreated.ToString("dd/MM/yyyy")
+                                    </small>
+                                </td>
+                                <td>
+                                    @user.Email
+                                </td>
+                                <td>
+                                    @user.PhoneNumber
+                                </td>
+                                <td class="project-state">
+                                    <span class="badge badge-success">Active</span>
+                                </td>
+                                <td class="project-actions text-right">
+                                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        Action
+                                    </button>
+                                    <div class="dropdown-menu" style="">
+                                        <a class="dropdown-item" asp-page="/User/Detail" asp-area="Admin" asp-route-id="@user.Id">Action</a>
+                                        @if (!user.LockoutEnabled)
+                                        {
+                                            <a class="dropdown-item" href="#">Deactive</a>
+                                        }
+                                        else
+                                        {
+                                            <a class="dropdown-item" href="#">Active</a>
+                                        }
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#">Separated link</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    
+                </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+    </div>
+    <!-- /.card -->
+
+</section>

@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "S70LBXG6gxUU/gj4Pm7imqLeK3Amr+534FIlN+CmafqpSrTOVz2TbAv776KomFW4mrOr8tubRTS9WSdD0bRNZA==",
+  "dgSpecHash": "8A7vJUMIlw4FDmEG224gZZ2Ma124cAHznnvMhpwXMu+t8Otazswn2s8r8CknY3CfT9Ea5q3qaQ0iZmgxhCannA==",
   "success": true,
   "projectFilePath": "D:\\Data\\Documents\\.NET API\\CheckSPNs\\CheckSPNs.Client.Data\\CheckSPNs.Client.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Duy\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.30\\microsoft.aspnetcore.cryptography.internal.6.0.30.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.30\\microsoft.aspnetcore.cryptography.keyderivation.6.0.30.nupkg.sha512",
+    "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.30\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.30.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Duy\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.30\\microsoft.entityframeworkcore.6.0.30.nupkg.sha512",

@@ -60,6 +60,20 @@ public static class ConfigurationTokenBear
             };
         });
 
-        services.AddAuthorization();
+        services.AddAuthorization(option =>
+        {
+            option.AddPolicy("AllowEdit", policy =>
+            {
+                policy.RequireClaim("View Stat", "True");
+            });
+            option.AddPolicy("AllowDelete", policy =>
+            {
+                policy.RequireClaim("Delete", "True");
+            });
+            option.AddPolicy("AllowViewStat", policy =>
+            {
+                policy.RequireClaim("Edit", "True");
+            });
+        });
     }
 }

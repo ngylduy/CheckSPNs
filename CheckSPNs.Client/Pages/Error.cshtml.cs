@@ -1,12 +1,12 @@
+using CheckSPNs.Client.Pages.Shared;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Diagnostics;
 
 namespace CheckSPNs.Client.Pages
 {
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     [IgnoreAntiforgeryToken]
-    public class ErrorModel : PageModel
+    public class ErrorModel : BaseModel
     {
         public string? RequestId { get; set; }
 

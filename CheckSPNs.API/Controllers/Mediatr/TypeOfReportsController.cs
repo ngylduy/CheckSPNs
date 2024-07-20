@@ -2,6 +2,7 @@
 using CheckSPNs.Infrastructure.Features.TypeOfReportFeatures.Commands.Models;
 using CheckSPNs.Infrastructure.Features.TypeOfReportFeatures.Queries.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CheckSPNs.API.Controllers.Mediatr
@@ -21,6 +22,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(response);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] AddTypeOfReportCommand command)
         {
@@ -32,6 +34,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(response);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] EditTypeOfReportCommand command)
         {
@@ -43,6 +46,7 @@ namespace CheckSPNs.API.Controllers.Mediatr
             return Ok(response);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(Guid id)
         {

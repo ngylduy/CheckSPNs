@@ -61,7 +61,7 @@ namespace CheckSPNs.API
 
             //Odata config
             ODataConventionModelBuilder modelBuilder = new ODataConventionModelBuilder();
-            modelBuilder.EntitySet<ExamScore>("ExamScoreOData");
+            modelBuilder.EntitySet<ExamScore2024>("ExamScoreOData");
             modelBuilder.EntitySet<TypeOfReports>("TypeOfReportOData");
             builder.Services.AddControllers().AddOData(option => option.Select().Filter().Count().OrderBy().Expand().SetMaxTop(100)
             .AddRouteComponents("odata", model: modelBuilder.GetEdmModel()));

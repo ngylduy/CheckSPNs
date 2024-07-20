@@ -5,9 +5,9 @@ namespace CheckSPNs.Service.MongoDb.Abstract
 {
     public interface IExamScoreService
     {
-        Task<string> ImportCsv(List<ExamScore> examScore);
+        Task<string> ImportCsv(List<ExamScore2024> examScore);
         Task<string> ImportProvinceCity(List<ProvinceCity> provinceCities);
         Task<ExamScoreDTO> GetExamScoreByIdAsync(string id);
-        IQueryable<ExamScore> GetExamScore();
+        IQueryable<ExamScore2024> GetExamScore();
     }
 }

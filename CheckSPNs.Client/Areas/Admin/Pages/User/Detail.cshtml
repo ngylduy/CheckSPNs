@@ -1,0 +1,138 @@
+﻿@page "{id:Guid}"
+@model CheckSPNs.Client.Areas.Admin.Pages.User.DetailModel
+@{
+    ViewData["Title"] = "User Detail";
+}
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+
+                <!-- Profile Image -->
+                <div class="card card-primary card-outline">
+                    <div class="card-body box-profile">
+
+                        @if (Model.AppUser is not null){
+                            <h3 class="profile-username text-center">@Model.AppUser.FirstName @Model.AppUser.LastName</h3>
+
+                        <p class="text-muted text-center">@@@Model.AppUser.UserName</p>
+
+                        <ul class="list-group list-group-unbordered mb-3">
+                            <li class="list-group-item">
+                                <b>Date Created</b> <a class="float-right">@Model.AppUser.DateCreated.ToString("dd/MM/yyyy")</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>Dob</b> <a class="float-right">@Model.AppUser.Dob.ToString("dd/MM/yyyy")</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>Email</b> <a class="float-right">@Model.AppUser.Email</a>
+                            </li>
+                            <li class="list-group-item">
+                                <b>Phone number</b> <a class="float-right">@Model.AppUser.PhoneNumber</a>
+                            </li>
+                            @if(Model.ManageUserRolesResult.userRoles is not null){
+                                    <li class="list-group-item">
+                                        <b>Role</b>
+                                        <a class="float-right">
+                                            @foreach (var role in Model.ManageUserRolesResult.userRoles)
+                                            {
+                                                @role.Name @Html.Raw(" ");
+                                            }
+                                        </a>
+                                </li>
+                            }
+                            @if (Model.ManageUserClaimsResult.userClaims is not null)
+                            {
+                                <li class="list-group-item">
+                                    <b>Permission</b>
+                                    <a class="float-right">
+                                        @foreach (var claim in Model.ManageUserClaimsResult.userClaims)
+                                        {
+                                            if (claim.Value) {
+                                                @claim.Type @Html.Raw(" ");
+                                            }
+                                        }
+                                    </a>
+                                </li>
+                            }
+                            <li class="list-group-item">
+                                <b>IsActive</b> <a class="float-right">@Model.AppUser.LockoutEnabled</a>
+                            </li>
+                        </ul>
+                        }
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+
+            </div>
+            <!-- /.col -->
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="card-body">
+                        <form class="form-horizontal" method="post">
+
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        @if (Model.ManageUserRolesResult is not null)
+                                        {
+                                            <label>Roles</label>
+
+                                            <select asp-for="@Model.SelectedRoleId"
+                                                data-placeholder="Select a Role" 
+                                                multiple="multiple" style="width: 100%;"
+                                                class="select2">
+                                                @foreach (var role in Model.ListRole)
+                                                {
+                                                    var selected = Model.ManageUserRolesResult.userRoles.FirstOrDefault(x => x.Id == role.Id) != null;
+                                                    <option value="@role.Id" selected="@selected">@role.Name</option>
+                                                }
+                                            </select>
+                                        }
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                    @if (Model.ManageUserClaimsResult is not null)
+                                    {
+                                            <label>Claims</label>
+                                            <select asp-for="@Model.SelectedClaimType"
+                                                    data-placeholder="Select a Claim"
+                                                    multiple="multiple" style="width: 100%;"
+                                                    class="select2">
+                                                @foreach (var claim in Model.ManageUserClaimsResult.userClaims)
+                                                {
+                                                    <option value="@claim.Type" selected="@claim.Value">@claim.Type</option>
+                                                }
+                                            </select>
+                                    }
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="form-group row">
+                                <div class="col-sm-10">
+                                    <button type="submit" class="btn btn-danger">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </div><!-- /.container-fluid -->
+</section>
+<!-- Select2 -->
+<script src="~/admin/plugins/select2/js/select2.full.min.js"></script>
+<script>
+    $(function () {
+        $('.select2').select2()
+    })
+</script>

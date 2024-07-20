@@ -2,11 +2,14 @@ using CheckSPNs.Client.Data.Helpers;
 using CheckSPNs.Client.Data.Model;
 using CheckSPNs.Client.Data.Service.Abstract;
 using CheckSPNs.Domain;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace CheckSPNs.Client.Areas.Login.Pages
 {
+
+    [AllowAnonymous]
     public class IndexModel : PageModel
     {
 
@@ -17,9 +20,9 @@ namespace CheckSPNs.Client.Areas.Login.Pages
             _authService = authService;
         }
 
-        public async Task<IActionResult> OnGet()
+        public IActionResult OnGet()
         {
-            var token = HttpContext.Session.GetString("token");
+            var token = HttpContext.Session.GetString("AccessToken");
             if (token is not null)
             {
                 if (!CheckService.IsAdmin(token))
@@ -48,15 +51,22 @@ namespace CheckSPNs.Client.Areas.Login.Pages
             var response = await _authService.Login<Response<JwtModel>>(loginModel.Email, loginModel.Password);
             if (response.isSuccess && response.value != null)
             {
-                var token = Convert.ToString(response.value.AccessToken);
-                if (token is not null)
+                var accessToken = Convert.ToString(response.value.AccessToken);
+                var refreshToken = Convert.ToString(response.value.RefreshToken);
+                HttpContext.Session.SetString("AccessToken", accessToken);
+
+                Response.Cookies.Append("RefreshToken", refreshToken, new CookieOptions
                 {
-                    HttpContext.Session.SetString("token", token);
-                }
+                    HttpOnly = true,
+                    Secure = true,
+                    SameSite = SameSiteMode.Strict,
+                    Expires = DateTime.Now.AddMinutes(5)
+                });
+
                 return RedirectToAction("Index");
             }
             ViewData["Checked"] = "Your email or password are wrong!";
-            return await OnGet();
+            return OnGet();
         }
     }
 }
